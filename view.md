@@ -33,7 +33,7 @@
 
 #### Screens
 
-| Screen | Comment  | Merge Status |
+| Screen | Comment | Merge Status |
 | :--- | :--- | :--- |
 | View\_Create\_Edit |  |  |
 | All\_Views\_Edit\_Screen |  |  |
