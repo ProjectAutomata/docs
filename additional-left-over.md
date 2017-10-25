@@ -1,6 +1,7 @@
+### Additional Left Over
 
-
-### Additional Lef
-
+* [ ] Forum to ask question like digital ocean.
+* [ ] Blog to explain all things in detail.
+* [ ] 
 
 

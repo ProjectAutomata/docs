@@ -2,8 +2,6 @@
 
 ![](/assets/AutomataWork %284%29.png)
 
-
-
 #### Tasks List \(Work Need To Be Done\)
 
 * [ ] View Saved Sort
