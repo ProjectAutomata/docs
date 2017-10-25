@@ -27,15 +27,17 @@
 | Gallery View |  |  |  |  |
 | Kanban View |  |  |  |  |
 | Grid View |  |  |  |  |
-| Create a new view |  |  |  |  |
-| Delete a saved views |  |  |  |  |
-| Edit View and Allocate proper grids size to a view |  |  |  |  |
+| Create a new view | 1 |  |  |  |
+| Delete a saved views | 1 |  |  |  |
+| Edit View and Allocate proper grids size to a view | 1 |  |  |  |
 
 #### Screens
 
-|  |  |  |
+| Screen | Comment  | Merge Status |
 | :--- | :--- | :--- |
-|  |  |  |
+| View\_Create\_Edit |  |  |
+| All\_Views\_Edit\_Screen |  |  |
+| Warning\_Dialog\_Box | Will get displayed while deleting a saved views. |  |
 |  |  |  |
 
 #### 
