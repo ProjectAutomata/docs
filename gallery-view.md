@@ -19,7 +19,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Create a gallery view | 1 | 10 | 8 | LOW |
 | Design setting page for gallery view adding and adjusting grids for gallery | 1 | 10 | 10 | LOW |
-| Design cards for gallery view. | 1 \(2-3 cards or customizable cards design\) | 6 | 10 | LOW |
+| Design cards for gallery view. | 1 \(2-3 cards or customizable cards design\) | 6 | 8 | LOW |
 | Edit view |  |  |  | LOW |
 | Delete View |  |  |  | LOW |
 | Print View |  |  |  | LOW |
