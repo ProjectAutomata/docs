@@ -27,6 +27,9 @@
 * [ ] Design Multicolumn and Multirow widget
 * [ ] Associate Panel Event to a widget
 * [ ] Associate Panel analytics to a widget
+* [ ] Design Graph Types
+* [ ] Associate Graph WIth Panel Events, Panel Analytics Rules.
+* [ ] Create Graph
 
 #### Total Time
 
@@ -41,7 +44,7 @@
 | Analytics parser engine |  |  | 6 |  |
 | Analytics delay calculation engine |  |  | 8 |  |
 | analytics refresh job scheduling engine |  |  | 4 |  |
-| delete analytics  |  |  | 2 |  |
+| delete analytics |  |  | 2 |  |
 | edit analytics |  |  | 2 |  |
 | EVENTS- Delete events |  |  |  |  |
 | EVENT- Associate event with widget and graph | 1 | 4 | 4 |  |
