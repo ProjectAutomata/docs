@@ -5,7 +5,9 @@
 #### Tasks List \(Work Need To Be Done\)
 
 * [ ] Create New Filter
+* [ ] Data validation on frontend and backend before saving filters.
 * [ ] Apply Run time Filter
+
 * [ ] Clear Filter
 * [ ] Delete Saved Filter
 * [ ] View all saved Filter
@@ -18,6 +20,7 @@
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
 | Create new Filter | 1 | 4 | 4 |  |
+| Data validation on frontend and backend side before saving filter |  |  |  |  |
 | Apply Run Time Filter | 1 | 4 | 4 |  |
 | Apply Saved Filter | 1 |  | 2 |  |
 | Clear Filter |  |  |  |  |

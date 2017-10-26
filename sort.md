@@ -6,6 +6,7 @@
 
 * [ ] View Saved Sort
 * [ ] Create New Sort
+* [ ] Data validation on saving a sort on both ends.
 * [ ] Apply Run Time Sort
 * [ ] Clear Sort
 * [ ] Display Applied and Saved Sort on Panel Top
@@ -16,6 +17,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | View Saved Sort |  |  | 1 |  |
 | Create New Sort | 1 | 2 | 2 |  |
+| Data Validation on Saving a Sort on Both ENd |  |  |  |  |
 | Apply Run Time Sort | 1 | 2 | 2 |  |
 | Clear Sort |  |  |  |  |
 | Display Applied and Saved Sort on Panel Top |  |  | 2 |  |
