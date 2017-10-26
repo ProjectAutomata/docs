@@ -10,6 +10,10 @@
 * [ ] Delete a Row
 * [ ] Edit Row
 * [ ] Multiple Views Support
+* [ ] Run Time implementation of filter. Like a data value is changed then at that time it will check whether it confronts to any of the active filter and will get hidden or displayed based on the filter applied all condition will happen at run time only.
+* [ ] Ctrl+Z implementation to undoing the last performed action. Upto 1 or 2 permissible limit only.
+* [ ] CTRL + R to redo the action.
+
 * [ ] Assigning Route to Panel
 * [ ] Panel Detail Design and Logic
 * [ ] Settings -&gt; Import _\(Currently not supported will import all project\)_
