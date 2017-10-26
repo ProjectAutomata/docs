@@ -2,8 +2,6 @@
 
 ![](/assets/AutomataWork %2811%29.png)
 
-
-
 #### Tasks List \(Work Need To Be Done\)
 
 * [ ] Design a compare view.
