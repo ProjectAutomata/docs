@@ -10,33 +10,41 @@
 * [ ] Add a new Card/ Add a new row
 * [ ] Drag and Drop from one Section to another Column
 * [ ] On Drop Condition Implement for each column. Like On Dropping to "Delivery Completed" column Section. Set properties of name "status" = "Done" if not already set.
-* [ ] 
+* [ ] Design All required Screens
 
+* [ ] Option to deleting a card to a view
 
+* [ ] Designing of cards for several conditions. Like a seperate card design card for "New Order" Section and a Seperated card for other sections and also a default card for other section.  
+  Like for order cancel card display a seperate card showing only Order Contact Details and Reason for Cancel.
 
+* [ ] Delete a View created
+
+* [ ] Ask warning before all deleting cases.
+
+* [ ] Design Print VIews
 
 #### Total Time
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
-| Calendar View |  |  |  |  |
-| Timeline View |  |  |  |  |
-| Compare View |  |  |  |  |
-| Analytics View |  |  |  |  |
-| Gallery View |  |  |  |  |
-| Kanban View |  |  |  |  |
-| Grid View |  |  |  |  |
-| Create a new view | 1 |  |  |  |
-| Delete a saved views | 1 |  |  |  |
-| Edit View and Allocate proper grids size to a view | 1 |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 #### Screens
 
 | Screen | Comment | Merge Status |
 | :--- | :--- | :--- |
-| View\_Create\_Edit |  |  |
-| All\_Views\_Edit\_Screen |  |  |
-| Warning\_Dialog\_Box | Will get displayed while deleting a saved views. |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 |  |  |  |
 
 #### 
