@@ -2,12 +2,9 @@
 
 ![](/assets/AutomataWork %2819%29.png)
 
-
-
 #### Tasks List \(Work Need To Be Done\)
 
-* [ ] 
-#### Total Time
+* [ ] #### Total Time
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
