@@ -29,14 +29,14 @@
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
-| Create View |  |  |  |  |
-| View Integration with dynamic data |  |  |  |  |
-| Design Several Cards for Views |  |  |  |  |
-| Add a new Card/ Data/Row |  |  |  |  |
-| Delete a new card. |  |  |  |  |
+| Create View | 1 | 48 |  |  |
+| View Integration with dynamic data and animations |  |  | 16 |  |
+| Design Several Cards for Views | 3 | 10 | 8 |  |
+| Add a new Card/ Data/Row | 1 | 8 | 5 |  |
+| Delete a new card. |  | 4 | 1 |  |
 | Dialog before performing a delete action |  |  |  |  |
-| Print View |  |  |  |  |
-| View Settings |  |  |  |  |
+| Print View |  |  | 1 |  |
+| View Settings | 1 | 10 | 8 |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
