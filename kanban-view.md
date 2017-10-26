@@ -27,7 +27,8 @@
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
-|  |  |  |  |  |
+| Create View |  |  |  |  |
+| View Integratio |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
