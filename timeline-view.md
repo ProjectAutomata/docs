@@ -2,8 +2,6 @@
 
 ![](/assets/AutomataWork %2810%29.png)
 
-
-
 #### Tasks List \(Work Need To Be Done\)
 
 * [ ] Design events cards and filter based on that card.
