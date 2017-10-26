@@ -5,7 +5,16 @@
 #### Tasks List \(Work Need To Be Done\)
 
 * [ ] Create View
+* [ ] Integrate View with Dynamic Data.
+* [ ] Design Several Cards for Kanban View.
+* [ ] Add a new Card/ Add a new row
+* [ ] Drag and Drop from one Section to another Column
+* [ ] On Drop Condition Implement for each column. Like On Dropping to "Delivery Completed" column Section. Set properties of name "status" = "Done" if not already set.
 * [ ] 
+
+
+
+
 #### Total Time
 
 | Features | Screens | Design Time | Logic Time | Priority |
