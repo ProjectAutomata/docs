@@ -18,7 +18,7 @@
 * [Automata Features](automata-features.md)
 * [Activities](activities.md)
 * [Panel History](panel-history.md)
-* [Grid View](grid-view.md)
+* [Automata Component View](grid-view.md)
 * [Import](import.md)
 * [Export](export.md)
 * [Template](template.md)
