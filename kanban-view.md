@@ -14,10 +14,10 @@
 
 * [ ] Option to deleting a card to a view. Design will be like dropping a card to a trash/archive.
 
-* [ ] Implementation of filter and a status. Such that when a card status is changed to be archive or done then on run time remove the card from the list. 
+* [ ] Implementation of filter and a status. Such that when a card status is changed to be archive or done then on run time remove the card from the list.
 
 * [ ] Designing of cards for several conditions. Like a seperate card design card for "New Order" Section and a seperate card for other sections and also a default card for other section.  
-  Like for order cancel card display a seperate card showing only Order Contact Details and Reason for Cancel.
+  Like for order cancel card display a separate card showing only Order Contact Details and Reason for Cancel.
 
 * [ ] Delete a View created.
 
