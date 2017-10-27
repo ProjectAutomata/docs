@@ -1,6 +1,4 @@
 # Automata Features
 
-![](/assets/AutomataWork %2815%29.png)
-
-
+![](/assets/AutomataWork %282%29.svg)
 
