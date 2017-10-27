@@ -1,4 +1,4 @@
 # Activities
 
-![](/assets/AutomataWork %2816%29.png)
+![](/assets/AutomataWork %285%29.svg)
 
