@@ -1,4 +1,4 @@
 # Project
 
-![](/assets/AutomataWork.png)
+![](/assets/AutomataWork %284%29.svg)
 
