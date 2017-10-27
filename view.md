@@ -15,6 +15,8 @@
 * [ ] Delete a saved views
 * [ ] Edit View and Allocate proper grids size to a view.
 * [ ] Design Panel Detail Screen and  Adding of Row Screen Specific to Each views
+* [ ] Set a view as a default type in panel to display it.
+* [ ] Each view can have option to set a filter or a widget to display as default.
 
 #### Total Time
 
