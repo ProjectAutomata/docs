@@ -17,6 +17,7 @@
 * [ ] Assigning Route to Panel
 
 * [ ] Panel Detail Design and Logic
+
 * [ ] Settings -&gt; Import _\(Currently not supported will import all project\)_
 * [ ] Setting -&gt; Export _\(Currently not supported will export all project\)_
 * [ ] Setting -&gt; Print

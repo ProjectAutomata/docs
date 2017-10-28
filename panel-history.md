@@ -35,7 +35,7 @@
 | Screen | Comment | Merge Status |
 | :--- | :--- | :--- |
 | Panel\_History\_Screen | History for complete Panel |  |
-| Panel\_Row\_History\_ | History for a Row of a Panel |  |
+| Panel\_Row\_History | History for a Row of a Panel |  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
