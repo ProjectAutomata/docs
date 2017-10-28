@@ -25,7 +25,7 @@
 #### 3\) Basic Details
 
 * [ ] API to get Project details \(Name of Project, Total number of Panels\)
-* [ ] Road Map \(All Project and Panel control through using basic details\)
+* [ ] **Road Map \(All Project and Panel control through using basic details\)**
 
 #### 4\) Email
 
@@ -77,24 +77,24 @@ Automata features will have several events registration like when a data is dele
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
-| Create Table APIs |  |  |  |  |
-| Create Settings Screen for all features | 8 |  |  |  |
-| Create SMS APIs |  |  |  |  |
-| Logic for 6 digit name of SMS Config |  |  |  |  |
-| Create Basic Details APIs |  |  |  |  |
+| Create Table APIs |  |  | 8 |  |
+| Create Settings Screen for all features | 8 | 40 hours |  |  |
+| Create SMS APIs |  |  | 4 |  |
+| Logic for 6 digit name of SMS Config |  |  | 2 |  |
+| Create Basic Details APIs |  |  | 2 |  |
 | Logic for Basic Details Road Map |  |  |  |  |
-| Create Email APIs |  |  |  |  |
-| Logic for adding tags into APIs and tracker |  |  |  |  |
-| Logic for scheduling email on a particular time |  |  |  |  |
-| Create APIs for Notification |  |  |  |  |
-| Logic for adding tags and tracking status |  |  |  |  |
-| Create APIs for Document Uplaod |  |  |  |  |
-| Creating ACL for Document Upload |  |  |  |  |
-| CRUD to upload documents |  |  |  |  |
-| Create APIs for Panel History |  |  |  |  |
-| APIs for Chat/Messaging |  |  |  |  |
-| Adding tags in the chat |  |  |  |  |
-| ACL for Automata feature i.e. Settings Option |  |  |  |  |
+| Create Email APIs |  |  | 4 |  |
+| Logic for adding tags into APIs and tracker |  |  | 4 |  |
+| Logic for scheduling email on a particular time |  |  | 2 |  |
+| Create APIs for Notification |  |  | 2 |  |
+| Logic for adding tags and tracking status for Notification |  |  | 4 |  |
+| Create APIs for Document Uplaod |  |  | 2 |  |
+| Creating ACL for Document Upload |  |  | 6 |  |
+| CRUD to upload documents |  |  | 4 |  |
+| Create APIs for Panel History |  |  | 2 |  |
+| APIs for Chat/Messaging |  |  | 2 |  |
+| Adding tags in the chat |  |  | 2 |  |
+| ACL for Automata feature i.e. Settings Option |  |  | 6 |  |
 
 #### Screens
 
