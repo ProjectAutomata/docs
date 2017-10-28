@@ -31,8 +31,8 @@
 * [User and Group](user-and-group.md)
 * [Project Setting](project-setting.md)
 * [User](user.md)
+* [automata component](automata-component.md)
 * [Project Billing](project-billing.md)
 * [Additional Left Over](additional-left-over.md)
-* [automata component](automata-component.md)
 * Redis Storage
 
