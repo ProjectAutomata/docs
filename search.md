@@ -24,15 +24,13 @@ Engines Required :-
 
 #### TOTAL FEATURES
 
-| Work | Design Time | Logic TIme | Priority |
+| Work | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- |
 | Search by Query |  | 42 Hours |  |
 | Different screens for showing different output of results like screen for showing calculation like calculator. | 9 |  |  |
 | Panel -&gt; When jumping to panel display screen to display results etc. |  |  |  |
 | Designing Several Engines for Search. |  |  |  |
 | Export data to files calculation |  |  |  |
-
-
 
 #### SCREENS
 
