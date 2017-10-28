@@ -4,7 +4,7 @@
 
 #### Note
 
-> For reverting back to a previous version don't create again version of step to revert back that it if i want to revert back from version 1 to version 9 then after successfull revert a version 10 will be created which will contain compressed revert of all the steps required to form from steps 9 to steps 1. This can be done possible by performing local revert of changed without storing it in database in each revert and updating to database finally only after a successful revert is done.
+> For reverting back to a previous version don't create again version of step to revert back that it if i want to revert back from version 1 to version 9 then after successful revert a version 10 will be created which will contain compressed revert of all the steps required to form from steps 9 to steps 1. This can be done possible by performing local revert of changed without storing it in database in each revert and updating to database finally only after a successful revert is done.
 
 #### Tasks List \(Work Need To Be Done\)
 
@@ -35,7 +35,7 @@
 | Screen | Comment | Merge Status |
 | :--- | :--- | :--- |
 | Panel\_History\_Screen | History for complete Panel |  |
-| Panel\_Row\_History | History for a Row of a Panel |  |
+| Panel\_Row\_History\_ | History for a Row of a Panel |  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
