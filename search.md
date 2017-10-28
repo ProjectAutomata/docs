@@ -29,7 +29,7 @@ Engines Required :-
 | Search by Query |  | 42 Hours |  |
 | Different screens for showing different output of results like screen for showing calculation like calculator. | 9 |  |  |
 | Panel -&gt; When jumping to panel display screen to display results etc. |  |  |  |
-| Designing Several Engines for Search. |  |  |  |
+| Designing Several Engines for Search. |  | 8 |  |
 | Export data to files calculation |  |  |  |
 
 #### SCREENS
