@@ -29,10 +29,11 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 6. All Base Components will have a type, permission and hooks and components with view, register.
 7. Based on hooks & state a Base Components displays several activity , widget, graph or Panel Views etc.
 8. Each page will load it state and state will load its components each componenents after load will check for its hooks and will load its hooks.
+9. Each activities will have two views.
 
 ### Activities Tasks
 
-1. [ ] Design all required engined required for activity.
+1. [ ] Design all required engine required for activity.
 2. [ ] Design method in base component how to define a base component of type activity.
 3. [ ] Add various type of base component
 
@@ -59,23 +60,26 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 8. [ ] Panel Activities Like -&gt; Sales Automation
 
 9. [ ] Panel Activities Like -&gt; TODO
+
 10. [ ] Security Page to display all installed activity lists.
+
+11. [ ] Define method for finding view related to hook or baseComponent.
 
 #### Total Time
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
-| Design all required engines for activity |  |  |  |  |
-| Method in Base Component and how to defined base component of type activity |  |  |  |  |
-| Define  hooks and types of baseComponenet during register. |  |  |  |  |
-| Register for permission a Activity possess. |  |  |  |  |
-| Mass Email | 1 |  |  |  |
+| Design all required engines for activity |  |  | 6 |  |
+| Define method for finding view related to hook or baseComponent. |  |  | 4 |  |
+| Define  hooks and types of baseComponenet during register. |  |  | 2 |  |
+| Register for permission a Activity possess. |  |  | 2 |  |
+| Mass Email with scheduling | 1 | 8 | 16 |  |
 | Invoice Activities | 1 |  |  |  |
 | Work Automation | 2 |  |  |  |
 | Sales Automation | 2 |  |  |  |
 | TODO | 1 |  |  |  |
 | Call Track | 1 |  |  |  |
-| Setting Page for displaying all installed activity and option to disable it. | 1 |  |  |  |
+| Setting Page for displaying all installed activity and option to disable it. | 1 | 10 | 8 |  |
 
 #### Screens
 
