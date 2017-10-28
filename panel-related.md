@@ -9,7 +9,7 @@
 * [ ] Display applied filter and Sort on Top of the view
 * [ ] Display default Views. and option to change views.
 * [ ] Setting page to design related layout and Add following
-  1.  WIdget
+  1. WIdget
   2. Activity
   3. Graph
 * [ ] Views to display all grids designed in settings.

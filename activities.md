@@ -13,15 +13,11 @@ Each baseComponent will have a method for fetching component by name and hook by
 
 On Page load it will first fetch its BaseComponets and after fetching its baseComponents each components will checkout for its hooks present on its page. If hook present then patient will request a backend api calling for its patients list and will fetch its view and then attach its view to its respective Hooks.
 
-
-
 #### Required Engines
 
-1.  Activity Register Engines
+1. Activity Register Engines
 2. Activity Design Engine
 3. Activity Execution Engine
-
-
 
 #### Remote Hooks
 
@@ -29,14 +25,10 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 2. Each hooks will corresponds to a particular view area of a state.
 3. Define Complete Application into a groups of unique states.
 4. Thus each state will have several hooks area where adding an activities will get adhere to that position.
-5. Each activities will be designed inside \`baseComponents`` folder and will get registered in `component-config.json` as activities``
+5. Each activities will be designed inside \`baseComponents``folder and will get registered in `component-config.json` as activities``
 6. All Base Components will have a type, permission and hooks and components with view, register.
 7. Based on hooks & state a Base Components displays several activity , widget, graph or Panel Views etc.
 8. Each page will load it state and state will load its components each componenents after load will check for its hooks and will load its hooks.
-
-
-
-
 
 ### Activities Tasks
 
@@ -57,6 +49,35 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 1. [ ] Define \`state\` for all available pages.
 2. [ ] Define \`hooks\` for all availaible status where a activity UI will get placed.
 3. [ ] Hook will be for all panel view, activities, Graph
+4. [ ] Show All Activities Permission while registering with hooks. Like Email -&gt; Read, Execute, Write
+5. [ ] Panel Activities Like -&gt; Invoice Activities
+
+6. [ ] Panel Activities Like -&gt; Mass Email Activities
+
+7. [ ] Panel Activities Like -&gt; Work Automatation
+8. [ ] Panel Activities Like -&gt; Sales Automation
+9. [ ] Panel Activities Like -&gt; TODO
+
+
+
+#### Total Time
+
+| Features | Screens | Design Time | Logic Time | Priority |
+| :--- | :--- | :--- | :--- | :--- |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
+#### Screens
+
+| Screen | Comment | Merge Status |
+| :--- | :--- | :--- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+#### 
 
 
 
