@@ -73,15 +73,13 @@
 
 Automata features will have several events registration like when a data is deleted or a particular events is happened
 
-
-
 ### Total Time
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
 | Create Table APIs |  |  |  |  |
-| Create Settings Screen for all features |  |  |  |  |
-| Create SMS APIs  |  |  |  |  |
+| Create Settings Screen for all features | 8 |  |  |  |
+| Create SMS APIs |  |  |  |  |
 | Logic for 6 digit name of SMS Config |  |  |  |  |
 | Create Basic Details APIs |  |  |  |  |
 | Logic for Basic Details Road Map |  |  |  |  |
@@ -107,7 +105,7 @@ Automata features will have several events registration like when a data is dele
 | Automata\_Features\_BasicDetails\_Config\_Screen | Configurations of Basic Details can be handled here |  |
 | Automata\_Features\_Email\_Config\_Screen | Configurations of Email can be handled here |  |
 | Automata\_Features\_Notification\_Config\_Screen | Configurations of Notification can be handled here |  |
-| Automata\_Features\_DocumentUpload\_Config\_Screen | Configurations of Document Upload Config Screen  |  |
+| Automata\_Features\_DocumentUpload\_Config\_Screen | Configurations of Document Upload Config Screen |  |
 | Automata\_Features\_PanelHistory\_Config\_Screen | Configurations of Panel History Config Screen |  |
 | Automata\_Features\_ChatMessaging\_Config\_Screen | Configurations of Chat/Messaging Config Screen |  |
 |  |  |  |
