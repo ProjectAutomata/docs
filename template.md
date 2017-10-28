@@ -18,11 +18,11 @@
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
-| Create Template Screen | 11 |  |  |  |
-| Create Project View Screen | 2 |  |  |  |
+| Create Template Screen | 11 | 6 | 6 |  |
+| Create Project View Screen | 2 | 3 | 2 |  |
 | Searching templates |  |  |  |  |
-| using saved templats |  |  |  |  |
-| duplicating a project |  |  |  |  |
+| using saved templates |  |  | 4 |  |
+| duplicating a project |  |  | 4 |  |
 |  |  |  |  |  |
 
 #### Screens
