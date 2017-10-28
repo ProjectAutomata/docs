@@ -19,7 +19,7 @@
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
 | Create Template Screen | 11 |  |  |  |
-| Create Project View Screen | 1 |  |  |  |
+| Create Project View Screen | 2 |  |  |  |
 | Searching templates |  |  |  |  |
 | using saved templats |  |  |  |  |
 | duplicating a project |  |  |  |  |
@@ -41,7 +41,7 @@
 | Template\_Create\_Delete\_Dialog | Any data deletion dialog |  |
 | Template\_Create\_Menu\_Screen | Select menu type from here |  |
 | Template\_ProjectView | How will the template exactly look like |  |
-|  |  |  |
+| Template\_ProjectView\_Sample\_Screen  | sample of the template can be seen here |  |
 
 
 
