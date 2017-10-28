@@ -41,7 +41,7 @@
 | Template\_Create\_Delete\_Dialog | Any data deletion dialog |  |
 | Template\_Create\_Menu\_Screen | Select menu type from here |  |
 | Template\_ProjectView | How will the template exactly look like |  |
-| Template\_ProjectView\_Sample\_Screen  | sample of the template can be seen here |  |
+| Template\_ProjectView\_Sample\_Screen | sample of the template can be seen here |  |
 
 
 

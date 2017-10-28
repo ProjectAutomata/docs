@@ -2,8 +2,6 @@
 
 ![](/assets/AutomataWork %288%29.svg)
 
-
-
 ### **TASKS**
 
 #### 1\) Table
@@ -36,7 +34,7 @@
 * [ ] Each Email templates will have a name and can send Email templates
 * [ ] API to send Email either custom templates or plain HTML
 * [ ] API to read each Email status: like email read /opened/spam/etc
-* [ ] Various option to add add tracker in link to track link opened
+* [ ] Various option to add tracker in link to track link opened
 * [ ] Add tags in API to calculate and track tag states
 * [ ] Configuration file for adding signature in the email setting
 * [ ] Schedule email to a particular time
@@ -65,15 +63,11 @@
 * [ ] API for CRUD chat functionality
 * [ ] Can add tags in the chat
 
-
-
 ### OTHER TASKS
 
 #### Automata Feature ACL
 
 * [ ] Settings option for configuring access management to ACL
-
-
 
 ### OTHER INFO
 
@@ -81,11 +75,46 @@ Automata features will have several events registration like when a data is dele
 
 
 
+### Total Time
 
+| Features | Screens | Design Time | Logic Time | Priority |
+| :--- | :--- | :--- | :--- | :--- |
+| Create Table APIs |  |  |  |  |
+| Create Settings Screen for all features |  |  |  |  |
+| Create SMS APIs  |  |  |  |  |
+| Logic for 6 digit name of SMS Config |  |  |  |  |
+| Create Basic Details APIs |  |  |  |  |
+| Logic for Basic Details Road Map |  |  |  |  |
+| Create Email APIs |  |  |  |  |
+| Logic for adding tags into APIs and tracker |  |  |  |  |
+| Logic for scheduling email on a particular time |  |  |  |  |
+| Create APIs for Notification |  |  |  |  |
+| Logic for adding tags and tracking status |  |  |  |  |
+| Create APIs for Document Uplaod |  |  |  |  |
+| Creating ACL for Document Upload |  |  |  |  |
+| CRUD to upload documents |  |  |  |  |
+| Create APIs for Panel History |  |  |  |  |
+| APIs for Chat/Messaging |  |  |  |  |
+| Adding tags in the chat |  |  |  |  |
+| ACL for Automata feature i.e. Settings Option |  |  |  |  |
 
-####  
+#### Screens
 
-####  
+| Screen | Comment | Merge Status |
+| :--- | :--- | :--- |
+| Automata\_Features\_Table\_Config\_Screen | Configurations of Table can be handled here |  |
+| Automata\_Features\_SMS\_Config\_Screen | Configurations of SMS can be handled here |  |
+| Automata\_Features\_BasicDetails\_Config\_Screen | Configurations of Basic Details can be handled here |  |
+| Automata\_Features\_Email\_Config\_Screen | Configurations of Email can be handled here |  |
+| Automata\_Features\_Notification\_Config\_Screen | Configurations of Notification can be handled here |  |
+| Automata\_Features\_DocumentUpload\_Config\_Screen | Configurations of Document Upload Config Screen  |  |
+| Automata\_Features\_PanelHistory\_Config\_Screen | Configurations of Panel History Config Screen |  |
+| Automata\_Features\_ChatMessaging\_Config\_Screen | Configurations of Chat/Messaging Config Screen |  |
+|  |  |  |
+
+#### 
+
+#### 
 
 
 
