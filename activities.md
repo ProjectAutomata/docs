@@ -30,6 +30,8 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 7. Based on hooks & state a Base Components displays several activity , widget, graph or Panel Views etc.
 8. Each page will load it state and state will load its components each componenents after load will check for its hooks and will load its hooks.
 
+
+
 ### Activities Tasks
 
 1. [ ] Design all required engined required for activity.
@@ -55,10 +57,9 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 6. [ ] Panel Activities Like -&gt; Mass Email Activities
 
 7. [ ] Panel Activities Like -&gt; Work Automatation
+
 8. [ ] Panel Activities Like -&gt; Sales Automation
 9. [ ] Panel Activities Like -&gt; TODO
-
-
 
 #### Total Time
 
