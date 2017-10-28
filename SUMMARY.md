@@ -34,4 +34,5 @@
 * [Project Billing](project-billing.md)
 * [Additional Left Over](additional-left-over.md)
 * [automata component](automata-component.md)
+* Redis Storage
 
