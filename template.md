@@ -18,7 +18,7 @@
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
-| Create Template Screen | 8 |  |  |  |
+| Create Template Screen | 11 |  |  |  |
 | Create Project View Screen | 1 |  |  |  |
 | Searching templates |  |  |  |  |
 | using saved templats |  |  |  |  |
@@ -34,7 +34,10 @@
 | Template\_Create\_ApplyFilter\_Dialog | Any filter can be applied from here |  |
 | Template\_Create\_SaveSort\_Dialog | Any sort can be saved from here |  |
 | Template\_Create\_ApplySort\_Dialog | Any sort can be applied from here |  |
-| Template\_Create\_Table\_Dialog | Table can be selected from here |  |
+| Template\_Create\_Views\_Dialog | Views can be added from here |  |
+| Template\_Create\_Widgets\_Dialog | Widgets can be added from here |  |
+| Template\_Create\_Graph\_Dialog | Graphs can be added from here |  |
+| Template\_Create\_Events\_Dialog | Events can be added from here |  |
 | Template\_Create\_Delete\_Dialog | Any data deletion dialog |  |
 | Template\_Create\_Menu\_Screen | Select menu type from here |  |
 | Template\_ProjectView | How will the template exactly look like |  |
