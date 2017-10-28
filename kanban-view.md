@@ -25,6 +25,8 @@
 
 * [ ] Design Print Views.
 
+* [ ] Can change Position within the column
+
 #### Total Time
 
 | Features | Screens | Design Time | Logic Time | Priority |
