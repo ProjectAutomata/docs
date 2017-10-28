@@ -30,8 +30,6 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 7. Based on hooks & state a Base Components displays several activity , widget, graph or Panel Views etc.
 8. Each page will load it state and state will load its components each componenents after load will check for its hooks and will load its hooks.
 
-
-
 ### Activities Tasks
 
 1. [ ] Design all required engined required for activity.
@@ -50,7 +48,7 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 
 1. [ ] Define \`state\` for all available pages.
 2. [ ] Define \`hooks\` for all availaible status where a activity UI will get placed.
-3. [ ] Hook will be for all panel view, activities, Graph
+3. [ ] Hook will be for all Panel view, Activities, Graph
 4. [ ] Show All Activities Permission while registering with hooks. Like Email -&gt; Read, Execute, Write
 5. [ ] Panel Activities Like -&gt; Invoice Activities
 
@@ -59,24 +57,37 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 7. [ ] Panel Activities Like -&gt; Work Automatation
 
 8. [ ] Panel Activities Like -&gt; Sales Automation
+
 9. [ ] Panel Activities Like -&gt; TODO
+10. [ ] Security Page to display all installed activity lists.
 
 #### Total Time
 
 | Features | Screens | Design Time | Logic Time | Priority |
 | :--- | :--- | :--- | :--- | :--- |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Design all required engines for activity |  |  |  |  |
+| Method in Base Component and how to defined base component of type activity |  |  |  |  |
+| Define  hooks and types of baseComponenet during register. |  |  |  |  |
+| Register for permission a Activity possess. |  |  |  |  |
+| Mass Email | 1 |  |  |  |
+| Invoice Activities | 1 |  |  |  |
+| Work Automation | 2 |  |  |  |
+| Sales Automation | 2 |  |  |  |
+| TODO | 1 |  |  |  |
+| Call Track | 1 |  |  |  |
+| Setting Page for displaying all installed activity and option to disable it. | 1 |  |  |  |
 
 #### Screens
 
 | Screen | Comment | Merge Status |
 | :--- | :--- | :--- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Activity\_Mass\_Email |  |  |
+| Activity\_Invoice\_Activities |  |  |
+| Activity\_Work\_Automation |  |  |
+| Activity\_Sales\_Automation |  |  |
+| Activity\_TODO |  |  |
+| Activity\_Call\_Track |  |  |
+| Activity\_Setting\_Page |  |  |
 
 #### 
 
