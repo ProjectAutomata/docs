@@ -36,16 +36,11 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 1. [ ] Design all required engine required for activity.
 2. [ ] Design method in base component how to define a base component of type activity.
 3. [ ] Add various type of base component
-
-> > > Activity
-> > >
-> > > Widget
-> > >
-> > > Graph
-> > >
-> > > Panel Views
-> > >
-> > > Dashboard Views
+   1. [ ] Activity
+   2. [ ] Widget
+   3. [ ] Graph
+   4. [ ] Panel Views
+   5. [ ] Dashboard VIews
 
 1. [ ] Define \`state\` for all available pages.
 2. [ ] Define \`hooks\` for all availaible status where a activity UI will get placed.
