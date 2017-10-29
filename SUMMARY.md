@@ -40,4 +40,5 @@
 * [Routes](routes.md)
 * Help Screen 
 * Keyboard Shortcuts
+* Forum/Discussion Panel
 
