@@ -45,6 +45,7 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 4. [ ] Define \`state\` for all available pages.
 
 5. [ ] Define \`hooks\` for all availaible status where a activity UI will get placed.
+
 6. [ ] Hook will be for all Panel view, Activities, Graph
 7. [ ] Show All Activities Permission while registering with hooks. Like Email -&gt; Read, Execute, Write
 8. [ ] Panel Activities Like -&gt; Invoice Activities

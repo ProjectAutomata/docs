@@ -1,6 +1,8 @@
-![](/assets/AutomataWork %281%29.svg)
+![](/assets/AutomataWork %2817%29.svg)
 
 ## AUTOMATA COMPONENT
+
+
 
 
 
