@@ -1,14 +1,10 @@
 # Project
 
-![](/assets/AutomataWork %284%29.svg)
-
-
+![](/assets/AutomataWork %2820%29.svg)
 
 ### Introduction
 
 Documents and Sheets link and basic details
-
-
 
 #### Tasks
 
@@ -35,8 +31,6 @@ Documents and Sheets link and basic details
 * [ ] Help Screen
 * [ ] Shortcut Keyboard
 * [ ] Forum/Discussion Panel
-
-
 
 #### Features
 
