@@ -2,8 +2,6 @@
 
 ![](/assets/AutomataWork %2831%29.png)
 
-
-
 ### TASKS
 
 * [ ] Project Settings Screen
@@ -11,7 +9,7 @@
 * [ ] Configuration settings for Email
 * [ ] Authentication settings for Email i.e. SPF, DKIM
 * [ ] CRUD Templates for SMS
-* [ ] CRUD Templates for SMS
+* [ ] CRUD Templates for Email
 * [ ] Status for Project Settings i.e. Active/Reject/OnHold
 
 ### Total Time
@@ -25,8 +23,6 @@
 | Create Read Update Delete SMS Templates |  |  | 4 |  |
 | Create Read Update Delete Email Templates |  |  | 4 |  |
 | Project Settings Status |  |  | 1 |  |
-
-
 
 ### Screens
 
