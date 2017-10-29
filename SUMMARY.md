@@ -27,13 +27,14 @@
 * [Project Report](project-report.md)
 * [Project Notification](project-notification.md)
 * [Sales Automation](sales-automation.md)
-* [Project/Panel Chat](projectpanel-chat.md)
+* [Chat Activity](projectpanel-chat.md)
 * [User and Group](user-and-group.md)
 * [Project Setting](project-setting.md)
 * [User](user.md)
 * [automata component](automata-component.md)
 * [Project Billing](project-billing.md)
-* Project ReadME
+* [Project ReadME](project-readme.md)
 * [Additional Left Over](additional-left-over.md)
 * Redis Storage
+* Third Party API Integration
 
