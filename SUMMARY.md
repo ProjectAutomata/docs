@@ -38,4 +38,6 @@
 * Redis Storage
 * Third Party API Integration
 * [Routes](routes.md)
+* Help Screen 
+* Keyboard Shortcuts
 

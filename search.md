@@ -1,6 +1,6 @@
 # Search
 
-![](/assets/AutomataWork %2813%29.svg)
+![](/assets/AutomataWork %2818%29.svg)
 
 #### INTRO
 
@@ -21,6 +21,8 @@ Engines Required :-
   Panels -&gt; When jumping to panel display screen to display results etc.
 
 * [ ] Designing Several Engines for Search.
+
+* [ ] Help Screen showing all the possible query and how to use.
 
 #### TOTAL FEATURES
 
@@ -44,8 +46,9 @@ Engines Required :-
 | Search\_Display\_MultiColumn\_Row. | Display MultiCoulmn Row Results |  |
 | Search\_One\_Column\_Multi-Row\_Data | Display Single Column and Multi Row Data Results |  |
 | Search\_Show\_Group\_Results | Display Group Results of a Table like grouping by Status. |  |
-|  |  |  |
+| Search\_Help\_Screen | Search help screen showing All the example of possible queries and shortcut. |  |
 | Search\_Graph\_Results | Display Graph Results |  |
+|  |  |  |
 
 
 
