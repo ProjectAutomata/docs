@@ -35,30 +35,31 @@ On Page load it will first fetch its BaseComponets and after fetching its baseCo
 
 1. [ ] Design all required engine required for activity.
 2. [ ] Design method in base component how to define a base component of type activity.
-3. [ ] Add various type of base component
-   1. [ ] Activity
-   2. [ ] Widget
-   3. [ ] Graph
-   4. [ ] Panel Views
-   5. [ ] Dashboard VIews
+3. [ ] Add various type of base component  
+   1. \[ \] Activity  
+   2. \[ \] Widget  
+   3. \[ \] Graph  
+   4. \[ \] Panel Views  
+   5. \[ \] Dashboard VIews
 
-1. [ ] Define \`state\` for all available pages.
-2. [ ] Define \`hooks\` for all availaible status where a activity UI will get placed.
-3. [ ] Hook will be for all Panel view, Activities, Graph
-4. [ ] Show All Activities Permission while registering with hooks. Like Email -&gt; Read, Execute, Write
-5. [ ] Panel Activities Like -&gt; Invoice Activities
+4. [ ] Define \`state\` for all available pages.
 
-6. [ ] Panel Activities Like -&gt; Mass Email Activities
+5. [ ] Define \`hooks\` for all availaible status where a activity UI will get placed.
+6. [ ] Hook will be for all Panel view, Activities, Graph
+7. [ ] Show All Activities Permission while registering with hooks. Like Email -&gt; Read, Execute, Write
+8. [ ] Panel Activities Like -&gt; Invoice Activities
 
-7. [ ] Panel Activities Like -&gt; Work Automatation
+9. [ ] Panel Activities Like -&gt; Mass Email Activities
 
-8. [ ] Panel Activities Like -&gt; Sales Automation
+10. [ ] Panel Activities Like -&gt; Work Automatation
 
-9. [ ] Panel Activities Like -&gt; TODO
+11. [ ] Panel Activities Like -&gt; Sales Automation
 
-10. [ ] Security Page to display all installed activity lists.
+12. [ ] Panel Activities Like -&gt; TODO
 
-11. [ ] Define method for finding view related to hook or baseComponent.
+13. [ ] Security Page to display all installed activity lists.
+
+14. [ ] Define method for finding view related to hook or baseComponent.
 
 #### Total Time
 
