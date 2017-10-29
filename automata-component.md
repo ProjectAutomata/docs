@@ -2,7 +2,6 @@
 
 ## AUTOMATA COMPONENT
 
-  
 More information is in `Google Docs "Automata Grid Design And Battery"`
 
 ### Tasks
@@ -11,7 +10,7 @@ More information is in `Google Docs "Automata Grid Design And Battery"`
 * [ ] Register
   * [ ] Component
   * [ ] Hook
-* [ ] Add API permission in `component-config.json. `
+* [ ] Add API permission in `component-config.json.`  
   While Registering it will declare how many API it is using
 
   * [ ] If a api permission not given then that API access wont be allowed to the Activity.
@@ -34,6 +33,28 @@ More information is in `Google Docs "Automata Grid Design And Battery"`
 
 * [ ] Read VIew of Component Design.
 
-* [ ] 
+#### 
+
+### Total Time
+
+| Features | Screens | Design Time | Logic Time | Priority |
+| :--- | :--- | :--- | :--- | :--- |
+| Design Required Engines. |  |  | 10 |  |
+| Register Component and Hook |  |  | 24 |  |
+| Permission Declaration while Registering |  |  | 8 |  |
+| Support for Grid View Additional Features like Dynamic Height etc. |  |  | 8 |  |
+| Edit View Of Component | 2 | 8 | 32 |  |
+| Read View Of Component. |  |  | 40 |  |
+| SSR Support |  |  | 24 |  |
+
+### 
+
+### Screens
+
+| Screen | Comment | Merge Status |
+| :--- | :--- | :--- |
+| Automata\_Component\_Edit\_VIew | Edit VIew with background graph paper like layout. |  |
+| Automata\_Component\_Warning\_Dialog | In case of Component Validation error on Save |  |
+
 
 
