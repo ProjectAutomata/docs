@@ -41,4 +41,5 @@
 * Help Screen 
 * Keyboard Shortcuts
 * Forum/Discussion Panel
+* [Data Entry Procedure](data-entry-procedure.md)
 
