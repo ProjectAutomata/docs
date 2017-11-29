@@ -63,7 +63,14 @@
                     }
                 ]
             }
-        ]
+        ],
+        tables:{
+            //PanelProp Id of the current Panel.
+            "#panelPropId": {
+                display: Boolean|default:true,
+                label: String| "Optional"
+            }
+        }
     }
 }
 ```
