@@ -18,23 +18,11 @@
 
 4. Each Components will be associated with a **componentView** model and **ComponentACL**.
 
-5. ComponentView model will contain all the setting that is needed for a perfect Grid/Widget/Graph etc to display.  
-  
-  
+5. ComponentView model will contain all the setting that is needed for a perfect Grid/Widget/Graph etc to display.
 
 #### ComponentView Model
 
-\`\`\`  
-      {
 
-                    type: view\|widget\|graph\|activity\|form,  
-                    
-
-      }
-
-
-
-\`\`\`
 
 #### 
 
