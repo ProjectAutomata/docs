@@ -59,7 +59,7 @@
                         },
                         label: String,
                         showHelp: Boolean,
-                        readOnly: Boolean
+                        readOnly: Boolean: default: false
                     }
                 ]
             }
@@ -68,9 +68,16 @@
             //PanelProp Id of the current Panel.
             "#panelPropId": {
                 display: Boolean|default:true,
-                label: String| "Optional"
+                label: String| "Optional",
+                position: Number| "Optional"
             }
-        }
+        },
+        rules:{
+            defaultRuleId: "MongoObject"| "Optional", //Default id of panelRule if provided.
+            where:[],
+            sort:[]
+        },
+        showRulesOnHeader: Boolean| default: true
     }
 }
 ```
