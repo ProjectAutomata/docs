@@ -22,14 +22,52 @@
 
 #### ComponentView Model
 
-  
-`  
-     {`
+```
+{
+    type: view| widget|graph|activities|form,
+    viewType: grid|kanban|gallery|calendar|analytics|timeline|compare|other,
+    widgetType: simple|multirowcolumn,
+    graphType: bar|line|gaugemeter|radar|pile|polar,
+    label: String,
+    projectId,
+    panelId,
+    baseComponent: String,
+    viewOptions:{
+        addData:[
+            {
+                id: UUID,
+                label: String,
+                description: String,
+                coordinates:{ x: Number, y: Number, w: Number, h: Number },
+                maxWidth: Number,
+                minWidth: Number,
+                maxHeight: Number,
+                minHeight: Number
+            }
+        ],
+        rows:[
+            {
+                cells:[
+                    {
+                        panelPropId: String,
+                        style:{
+                            //All style related data.
+                        },
+                        componentName: String,
+                        componentOption:{
+                            //Component Related Option...
+                        },
+                        label: String,
+                        showHelp: Boolean,
+                        readOnly: Boolean
+                    }
+                ]
+            }
+        ]
+    }
+}
 
-   x = "adasd"
-
-}`  
-`
+```
 
 #### 
 
