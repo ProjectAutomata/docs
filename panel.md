@@ -22,7 +22,7 @@
 
 #### ComponentView Model
 
-```
+```js
 {
     type: view| widget|graph|activities|form,
     viewType: grid|kanban|gallery|calendar|analytics|timeline|compare|other,
@@ -66,7 +66,6 @@
         ]
     }
 }
-
 ```
 
 #### 
