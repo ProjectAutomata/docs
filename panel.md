@@ -18,17 +18,27 @@
 
 4. Each Components will be associated with a **componentView** model and **ComponentACL**.
 
-5. ComponentView model will contain all the setting that is needed for a perfect Grid/Widget/Graph etc to display.
-
-
-
-
+5. ComponentView model will contain all the setting that is needed for a perfect Grid/Widget/Graph etc to display.  
+  
+  
 
 #### ComponentView Model
 
-  
-  
+\`\`\`  
+      {
 
+                    type: view\|widget\|graph\|activity\|form,  
+                    
+
+      }
+
+
+
+\`\`\`
+
+#### 
+
+#### 
 
 #### Tasks List \(Work Need To Be Done\)
 
@@ -53,6 +63,7 @@
 * [ ] Setting -&gt; Print
 
 * [ ] Setting -&gt; Help
+
 * [ ] Display bottom footer displaying total time taken to fetch the data from server.
 
 #### Total Time
