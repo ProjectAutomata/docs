@@ -2,6 +2,20 @@
 
 ![](/assets/AutomataWork %281%29.png)
 
+#### 
+
+#### Design Flow:
+
+
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
 #### Tasks List \(Work Need To Be Done\)
 
 * [ ] Panel Attached with Grid View
@@ -19,6 +33,7 @@
 * [ ] Panel Detail Design and Logic
 
 * [ ] Settings -&gt; Import _\(Currently not supported will import all project\)_
+
 * [ ] Setting -&gt; Export _\(Currently not supported will export all project\)_
 * [ ] Setting -&gt; Print
 * [ ] Setting -&gt; Help

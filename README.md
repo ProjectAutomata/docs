@@ -61,8 +61,6 @@ Documents and Sheets link and basic details
 | Forum/Discussion Panel |  |  |  |  |
 |  |  |  |  |  |
 
-
-
 ### Screens
 
 | Screen | Comments | Merge Status |
