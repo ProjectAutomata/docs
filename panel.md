@@ -8,14 +8,27 @@
 
 #### ![](/assets/DesignFlow.png)
 
-##   Introduction:
+## Introduction:
+
+1. Each Project will have many Panels.
+
+2. Each Panel will have many Pages.
+
+3. Each Page will have many Components
+
+4. Each Components will be associated with a **componentView** model and **ComponentACL**.
+
+5. ComponentView model will contain all the setting that is needed for a perfect Grid/Widget/Graph etc to display.
+
+
+
+
+
+#### ComponentView Model
 
   
+  
 
-
-#### 
-
-#### 
 
 #### Tasks List \(Work Need To Be Done\)
 
@@ -38,6 +51,7 @@
 * [ ] Setting -&gt; Export _\(Currently not supported will export all project\)_
 
 * [ ] Setting -&gt; Print
+
 * [ ] Setting -&gt; Help
 * [ ] Display bottom footer displaying total time taken to fetch the data from server.
 
