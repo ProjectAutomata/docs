@@ -38,7 +38,7 @@ A panel will have following options:
       * Adjust Size and Position of Components in the View.
       * Remove a Components from a View.
       * Add Some basic Grid Related features like autoheight, fixed during component assignment.
-   6. 
+3. Component
 
 #### ComponentView Model
 
