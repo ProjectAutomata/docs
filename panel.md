@@ -14,7 +14,7 @@
 
 2. Each **Panel** will have many **Pages**.
 
-3. Each **Page** will have many **Components**
+3. Each **Page** will have many **Components.**
 
 4. Each **Component **will be associated with a **componentView** model and **ComponentACL**.
 
