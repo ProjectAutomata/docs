@@ -20,6 +20,17 @@
 
 5. **ComponentView** model will contain all the setting that is needed for a perfect Grid/Widget/Graph etc to display.
 
+
+
+### Panel
+
+A panel will have following options:  
+A panel will have a `type`  like `data|dashboard|etc.`
+
+
+
+
+
 #### ComponentView Model
 
 ```js
