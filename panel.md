@@ -33,15 +33,11 @@ A panel will have following options:
    2. Set a page as **default.**
    3. Rename a page.
    4. Delete a page.
-   5.  Assign Components:
+   5. Assign Components:
       * Drag and Drop Components to a Page View area.
       * Adjust Size and Position of Components in the View.
       * Remove a Components from a View.
       * 
-
-  
-  
-  
 
 #### ComponentView Model
 
@@ -107,7 +103,9 @@ A panel will have following options:
 }
 ```
 
-#### 
+  
+  
+
 
 #### Tasks List \(Work Need To Be Done\)
 
