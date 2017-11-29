@@ -20,18 +20,32 @@
 
 5. **ComponentView** model will contain all the setting that is needed for a perfect Grid/Widget/Graph etc to display.
 
-
-
 ### Panel
 
 A panel will have following options:  
 A panel will have a `type`  like `data|dashboard|etc.`
 
+A panel will have following options:
 
+1. Add Properties/Validation/ACL of Properties
+2. Pages
+   1. Create/Edit a Page.
+   2. Set a page as **default.**
+   3. Rename a page.
+   4. Delete a page.
+   5.  Assign Components:
+      * Drag and Drop Components to a Page View area.
+      * Adjust Size and Position of Components in the View.
+      * Remove a Components from a View.
+      * 
 
-
+  
+  
+  
 
 #### ComponentView Model
+
+**When type === "view" and viewType === "grid":**
 
 ```js
 {
