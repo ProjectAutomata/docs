@@ -22,9 +22,14 @@
 
 #### ComponentView Model
 
+  
+`  
+     {`
 
+   x = "adasd"
 
-#### 
+}`  
+`
 
 #### 
 
