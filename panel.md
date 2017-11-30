@@ -39,6 +39,13 @@ A panel will have following options:
       * Remove a Components from a View.
       * Add Some basic Grid Related features like autoheight, fixed during component assignment.
 3. Component
+   1.  View all saved components.
+   2.  Can view all component card along with its requirements \( Like Panel, Pages\) and Supported Type
+   3. Can View Settings of a View.
+   4. Can Edit a Component.
+   5. Can Delete any Component
+   6. Each Component will have its own setting screen.
+   7. 
 
 #### ComponentView Model
 
