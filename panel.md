@@ -66,7 +66,7 @@ A panel will have following options:
       1. Supported Types
 
    ```
-                 Type    Argument  That needs to be passed external   
+                 Type    Argument  That needs to be passed external
    ```
 
    1. 1. A ----&gt;  Project Id
@@ -112,10 +112,31 @@ A panel will have following options:
                 maxWidth: Number,
                 minWidth: Number,
                 maxHeight: Number,
-                minHeight: Number
+                minHeight: Number,
+                rows:[
+                    {
+                        cells:[
+                            {
+                                panelPropId: String,
+                                style:{
+                                    //All style related data.
+                                },
+                                componentName: String,
+                                componentOption:{
+                                    //Component Related Option...
+                                },
+                                label: String,
+                                showHelp: Boolean,
+                                readOnly: Boolean: default: false
+                            }
+                        ]
+                    }
+                ],
             }
+            ...
+            ...
         ],
-        
+
         tables:{
             //PanelProp Id of the current Panel.
             "#panelPropId": {
