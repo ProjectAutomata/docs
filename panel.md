@@ -45,35 +45,37 @@ A panel will have following options:
    4. Can Edit a Component.
    5. Can Delete any Component
    6. Each Component will have its own setting screen.
-4. Component create Procedure
-   1. Select a **type **of several categories
-      1. Data
-         1. Grid
-         2. Kanban
-         3. Calendar
-         4. etc..
-      2. Graph
-         1. bar
-         2. line
-         3. etc.
-      3. Widget
-         1. Simple
-         2. Complex
-      4. Activity
-         1. mass email
-         2. etc.
-   2. Each component will be of different supported types based on its requirements.
+4. Component create Procedure  
+   1. Select a **type **of several categories  
+      1. Data  
+         1. Grid  
+         2. Kanban  
+         3. Calendar  
+         4. etc..  
+      2. Graph  
+         1. bar  
+         2. line  
+         3. etc.  
+      3. Widget  
+         1. Simple  
+         2. Complex  
+      4. Activity  
+         1. mass email  
+         2. etc.  
+   2. Each component will be of different supported types based on its requirements.  
       1. Supported Types
 
-                     Type    Argument  That needs to be passed external   
-      1. 1. A ----&gt;  Project Id
-         2. B ----&gt;  ProjectId, PanelId
-         3. C ----&gt;  PanelRow ID
-         4. D------&gt; No Requirements
-      2. There will also be Internal Argument type. Which needs to be passed through component settings only in case of Graph or Widgets or Grid Layout.
+   ```
+                 Type    Argument  That needs to be passed external   
+   ```
+
+   1. 1. A ----&gt;  Project Id
+      2. B ----&gt;  ProjectId, PanelId
+      3. C ----&gt;  PanelRow ID
+      4. D------&gt; No Requirements
+   2. There will also be Internal Argument type. Which needs to be passed through component settings only in case of Graph or Widgets or Grid Layout.
+
 5. Now in Page edit screen. Will only display those components which has support for this Page
-
-
 
 **Grid Component Setting page:**
 
@@ -84,11 +86,9 @@ A panel will have following options:
 5. Some Grid Panel Related Settings
 6. Select Rules
 
-
-
 #### ComponentView
 
-####  Model
+#### Model
 
 **When type === "view" and viewType === "grid":**
 
@@ -115,25 +115,7 @@ A panel will have following options:
                 minHeight: Number
             }
         ],
-        rows:[
-            {
-                cells:[
-                    {
-                        panelPropId: String,
-                        style:{
-                            //All style related data.
-                        },
-                        componentName: String,
-                        componentOption:{
-                            //Component Related Option...
-                        },
-                        label: String,
-                        showHelp: Boolean,
-                        readOnly: Boolean: default: false
-                    }
-                ]
-            }
-        ],
+        
         tables:{
             //PanelProp Id of the current Panel.
             "#panelPropId": {
