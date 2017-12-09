@@ -43,8 +43,6 @@
 | grid\_view\_new\_data |  |  |
 | grid\_view\_setting |  |  |
 
-
-
 #### Possible PanelProps for Adding Data
 
 ##### Primary Info
@@ -83,13 +81,9 @@
 * Status
 * Owner
 
-
-
 #### Architectural Design
 
 ![](/assets/New Doc 2017-12-09_1.jpg)
-
-
 
 #### Basic Components
 
@@ -107,17 +101,286 @@
 
 
 
+#### Single Line Text
+
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    typeOptions: {
+        type: default|Email|Phone Number|Credit Card|Currency
+    },
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
 
 
 
+#### Multi Line Text
+
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
 
 
 
+#### Single Select
+
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    typeOptions: {
+        type: default|City|State|Country
+    },
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
 
 
 
+#### Multi Select
 
-##### 
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
+
+
+
+#### Single Related
+
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    typeOptions: {
+        subtitles:[
+            label: String,
+            panelPropId: ID
+        ]
+    },
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
+
+
+
+#### Number
+
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    typeOptions: {
+        type: default|Age|ZipCode|Year
+    },
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
+
+
+
+#### Date
+
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    typeOptions: {
+        type: Created (date)
+    },
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
+
+
+
+#### Time
+
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
+
+
+
+#### File Upload
+
+```
+Options:{
+    Dimension:{
+        Width: n <= 16,
+        Height: n * Grid
+    },
+    Label: String,
+    Description: String,
+    helpText: String,
+    readOnly: Boolean,
+    isDisabled: Boolean (default: false)
+    showLabel: Boolean (default: true),
+    showDescription: Boolean (default: true)
+    showHelp: Boolean,
+    typeOptions: {
+        type: file|audio|img|video
+    },
+    readOnlyOptions: {
+        textAlign: center|left|right,
+        fontSize: xs|sm|md|lg|xl,
+        fontWeight: normal|bold|bolder,
+        color: "#--"
+    }
+    panelPropId: ID
+}
+```
+
+
+
+#### Work
+
+* Design Mongo Model
+* Design GraphQL Schema
+* Design React Component corresponding to each schema
+* Design Box \(Grid Comp\) =&gt; Design Rows inside Box
+* Place Box inside Main View
 
 
 
