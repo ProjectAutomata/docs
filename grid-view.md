@@ -14,6 +14,7 @@
 * [ ] Implement load more
 
 * [ ] implement loading bar & error pages.
+
 * [ ] Screen to add new data to calendar view
 
 * [ ] Setting and Edit View Screen
@@ -41,6 +42,82 @@
 | grid\_view\_error\_pages |  |  |
 | grid\_view\_new\_data |  |  |
 | grid\_view\_setting |  |  |
+
+
+
+#### Possible PanelProps for Adding Data
+
+##### Primary Info
+
+* Customer Name
+* Title
+
+##### Address
+
+* Street
+* City
+* State
+* Zip Code
+* Country
+
+##### Other
+
+* Description
+* Note
+
+##### Contact
+
+* Website
+* Email
+* Skype
+* Phone Number
+
+##### Company
+
+* Company Name
+* Industry
+* Annual Revenue
+
+##### Lead
+
+* Status
+* Owner
+
+
+
+#### Architectural Design
+
+![](/assets/New Doc 2017-12-09_1.jpg)
+
+
+
+#### Basic Components
+
+1. Single Line Text
+2. Multi Line Text
+3. Single Select
+4. Multi Select
+5. Single Related
+6. Number
+7. Date
+8. Time
+9. Boolean
+10. Single File Upload
+11. Multiple File Upload
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### 
 
 
 
