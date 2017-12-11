@@ -99,8 +99,6 @@
 10. Single File Upload
 11. Multiple File Upload
 
-
-
 #### Single Line Text
 
 ```
@@ -130,8 +128,6 @@ Options:{
 }
 ```
 
-
-
 #### Multi Line Text
 
 ```
@@ -157,8 +153,6 @@ Options:{
     panelPropId: ID
 }
 ```
-
-
 
 #### Single Select
 
@@ -189,8 +183,6 @@ Options:{
 }
 ```
 
-
-
 #### Multi Select
 
 ```
@@ -216,8 +208,6 @@ Options:{
     panelPropId: ID
 }
 ```
-
-
 
 #### Single Related
 
@@ -251,8 +241,6 @@ Options:{
 }
 ```
 
-
-
 #### Number
 
 ```
@@ -281,8 +269,6 @@ Options:{
     panelPropId: ID
 }
 ```
-
-
 
 #### Date
 
@@ -313,8 +299,6 @@ Options:{
 }
 ```
 
-
-
 #### Time
 
 ```
@@ -340,8 +324,6 @@ Options:{
     panelPropId: ID
 }
 ```
-
-
 
 #### File Upload
 
@@ -371,8 +353,6 @@ Options:{
     panelPropId: ID
 }
 ```
-
-
 
 #### Work
 
