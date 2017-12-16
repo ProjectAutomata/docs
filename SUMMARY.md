@@ -42,4 +42,5 @@
 * Keyboard Shortcuts
 * Forum/Discussion Panel
 * [Data Entry Procedure](data-entry-procedure.md)
+* [Libraries being used](libraries-being-used.md)
 
