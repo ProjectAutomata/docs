@@ -40,8 +40,10 @@
 * [Routes](routes.md)
 * Help Screen 
 * Keyboard Shortcuts
-* Forum/Discussion Panel
+* [Forum/Discussion Panel](forumdiscussion-panel.md)
 * [Data Entry Procedure](data-entry-procedure.md)
 * [Libraries being used](libraries-being-used.md)
 * [Add Row Settings](multiple-grid-structure.md)
+* [React Components](react-components.md)
+  * [Project Card](react-components/project-card.md)
 
