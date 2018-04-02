@@ -35,7 +35,7 @@
 * [Project Billing](project-billing.md)
 * [Project ReadME](project-readme.md)
 * [Additional Left Over](additional-left-over.md)
-* Redis Storage
+* [Redis Storage](redis-storage.md)
 * Third Party API Integration
 * [Routes](routes.md)
 * Help Screen 

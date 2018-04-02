@@ -6,6 +6,24 @@
 
 Documents and Sheets link and basic details
 
+
+
+
+
+### Project Schema
+
+| Property | Type |
+| :--- | :--- |
+| name |  |
+| label |  |
+| description |  |
+| color |  |
+| templateId |  |
+| ownerid |  |
+|  |  |
+
+###   
+
 #### Tasks
 
 * [ ] Design several views routes inside project.
