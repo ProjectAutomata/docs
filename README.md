@@ -18,7 +18,23 @@ Documents and Sheets link and basic details
 | ownerid |  |
 | id \(Custom Short Id\) |  |
 
-### 
+
+
+### Project ACL
+
+| Property | Type |
+| :--- | :--- |
+| \_id | \`userId:projectId\` |
+| projectId | String, ShortId |
+| userId | String, ShortId |
+| roleType | admin\|custom |
+| roles |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
 
 #### Tasks
 
