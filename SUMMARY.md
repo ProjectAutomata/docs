@@ -1,6 +1,8 @@
 # Summary
 
 * [Project](README.md)
+  * [Tasks](tasks.md)
+  * [On New Blank Project Creation](on-project-creation.md)
 * [Panel](panel.md)
 * [Panel Details](panel-details.md)
 * [Filter](filter.md)
