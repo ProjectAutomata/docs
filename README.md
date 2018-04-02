@@ -6,23 +6,19 @@
 
 Documents and Sheets link and basic details
 
-
-
-
-
 ### Project Schema
 
 | Property | Type |
 | :--- | :--- |
-| name |  |
-| label |  |
+| title |  |
+| slug |  |
 | description |  |
 | color |  |
 | templateId |  |
 | ownerid |  |
-|  |  |
+| id \(Custom Short Id\) |  |
 
-###   
+### 
 
 #### Tasks
 
