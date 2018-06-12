@@ -468,3 +468,30 @@
 
 
 
+### LinkToAnotherPanel
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'linkToAnotherPanel',
+            typeOptions:{
+                isRequired: 'Boolean',
+                relatedPanelId: '',
+                relatedPanelPropId: '',
+                type: 'Single|Multiple',
+                displayFields:[
+                  {
+                    name: 'ABC',
+                    panelPropId: ''
+                  }   
+                ]
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
