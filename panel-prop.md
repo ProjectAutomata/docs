@@ -113,8 +113,6 @@
 | Is Required |
 | Is Primary |
 
-
-
 | Number |
 | :--- |
 | Default |
@@ -127,8 +125,6 @@
 | Suffix |
 | Prefix |
 
-
-
 | Link to Another Record |
 | :--- |
 | Single \| Multiple |
@@ -136,10 +132,6 @@
 | Select Search Field |
 | Select Display Fields |
 | Is Required |
-
-
-
-
 
 
 
