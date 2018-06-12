@@ -220,7 +220,13 @@
             name: 'String'
             type: 'multipleSelect',
             typeOptions:{
-                isRequired: 'Boolean'
+                isRequired: 'Boolean',
+                options: [
+                    {
+                        value: 'String',
+                        color: '#aabbcc'
+                    }
+                ]
         },
         panelId: 'PanelID REFERENCE'
     }
@@ -237,6 +243,12 @@
             type: 'singleSelect',
             typeOptions:{
                 isRequired: 'Boolean',
+                options: [
+                    {
+                        value: 'String',
+                        color: '#aabbcc'
+                    }
+                ]
                 default
         },
         panelId: 'PanelID REFERENCE'
@@ -375,8 +387,6 @@
 }
 ```
 
-
-
 ### Email
 
 ```
@@ -393,8 +403,6 @@
     }
 }
 ```
-
-
 
 ### Url
 
@@ -413,8 +421,6 @@
 }
 ```
 
-
-
 ### Rating
 
 ```
@@ -431,7 +437,6 @@
         panelId: 'PanelID REFERENCE'
     }
 }
-
 ```
 
 
