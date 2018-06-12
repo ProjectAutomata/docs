@@ -194,8 +194,6 @@
 }
 ```
 
-
-
 ### Checkbox
 
 ```
@@ -213,8 +211,6 @@
 }
 ```
 
-
-
 ### Multiple Select
 
 ```
@@ -224,13 +220,91 @@
             name: 'String'
             type: 'multipleSelect',
             typeOptions:{
-                isRequired: 'Boolean',
-                default: 'Boolean'
+                isRequired: 'Boolean'
         },
         panelId: 'PanelID REFERENCE'
     }
 }
 ```
+
+
+
+### Single Select
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'singleSelect',
+            typeOptions:{
+                isRequired: 'Boolean',
+                default
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+
+
+### Subscriber
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'singleSelect',
+            typeOptions:{
+                isRequired: 'Boolean',
+                eventId: 'EVENT MODEL REFERENCE'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Date
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'date',
+            typeOptions:{
+                isRequired: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Phone Number
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'phoneNumber',
+            typeOptions:{
+                isRequired: 'Boolean',
+                isPrimary: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
 
 
 
