@@ -135,3 +135,84 @@
 
 
 
+
+
+### Single Line Text
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+        name: 'String'
+        type: 'singleLineText',
+        typeOptions:{
+            default: 'String',
+            minLength: 'Number',
+            isRequired: 'Boolean',
+            suffix:'String',
+            prefix: 'String',
+            regex: 'String' //Must be a valid RegExp
+            isPrimary: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Long Text
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+        name: 'String'
+        type: 'longText',
+        typeOptions:{
+            default: 'String',
+            minLength: 'Number',
+            maxLength: 'Number',
+            isRequired: 'Boolean',
+            suffix:'String',
+            prefix: 'String',
+            regex: 'String' //Must be a valid RegExp
+            isPrimary: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Attachment
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'attachment',
+            typeOptions:{
+                isRequired: 'Boolean',
+                suffix:'String',
+                prefix: 'String',
+                regex: 'String' //Must be a valid RegExp
+                isPrimary: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
