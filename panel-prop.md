@@ -263,7 +263,7 @@
     _id: 'projectId:panelShortId:shortId',
     payload: {
             name: 'String'
-            type: 'singleSelect',
+            type: 'subscriber',
             typeOptions:{
                 isRequired: 'Boolean',
                 eventId: 'EVENT MODEL REFERENCE'
