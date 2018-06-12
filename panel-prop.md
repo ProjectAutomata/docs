@@ -468,7 +468,7 @@
                 prefix: 'Any',
                 isPrimary: 'Boolean',
                 regex: 'REGEXP String',
-                numberType: 'Decimal|Integer' //Default: Integer,
+                numberType: 'decimal|integer' //Default: Integer,
                 allowNegative: false,
                 precision: 'Number', 1-10 1 means 1.0, 2 means 1.00  
         },
