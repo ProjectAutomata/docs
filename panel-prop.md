@@ -22,9 +22,6 @@
 | Rating | Max number \(Select out of 10\) |
 | Created Date | \(Ask for Options Also Display Time\) |
 | Updated Date | \(Ask for option to also display time\) |
-|  |  |
-
-
 
 | **Single Line Text** |
 | :--- |
@@ -36,15 +33,13 @@
 | Regex |
 | Is Primary |
 
-
-
 | Long Text |
 | :--- |
 | Default |
 | Min Length |
 | Max Length |
 | Is Required |
-| Suffix  |
+| Suffix |
 | Prefix |
 | Regex |
 | Is Primary |
@@ -58,15 +53,13 @@
 | Default |
 | Is Required |
 
-
-
 | Multiple Select |
 | :--- |
 | Is Required |
 
 | Single Select |
 | :--- |
-| Default  |
+| Default |
 | Is Required |
 
 | Subscriber |
@@ -78,45 +71,31 @@
 | :--- |
 | Is Required |
 
-
-
 | Time |
 | :--- |
 | Is Required |
-
-
 
 | Phone number |
 | :--- |
 | Is Required |
 | is Primary |
 
-
-
 | Currency |
 | :--- |
 | isRequired |
 | Default |
-
-
 
 | Percent |
 | :--- |
 | is Required |
 | Default |
 
-
-
 | Created Date |
 | :--- |
 
 
-
-
 | Updated Date |
 | :--- |
-
-
 
 
 | Email |
@@ -124,19 +103,43 @@
 | Is Required |
 | is Primary |
 
-
-
 | URL |
 | :--- |
 | Is Required |
 | Is Primary |
 
-
-
 | Rating |
 | :--- |
 | Is Required |
 | Is Primary |
+
+
+
+| Number |
+| :--- |
+| Default |
+| Is Primary |
+| Regex |
+| Min |
+| Max |
+| Is Required |
+| GTE, LTE |
+| Suffix |
+| Prefix |
+
+
+
+| Link to Another Record |
+| :--- |
+| Single \| Multiple |
+| Select Panel |
+| Select Search Field |
+| Select Display Fields |
+| Is Required |
+
+
+
+
 
 
 
