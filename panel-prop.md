@@ -294,8 +294,6 @@
 }
 ```
 
-
-
 ### Currency
 
 ```
@@ -315,8 +313,6 @@
 }
 ```
 
-
-
 ### Percent
 
 ```
@@ -335,11 +331,53 @@
 }
 ```
 
-
-
 ### Created Date
 
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+        name: 'String'
+        type: 'createdDate',
+        typeOptions:{},
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
 
+
+
+### Updated Date
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+        name: 'String'
+        type: 'updatedDate',
+        typeOptions:{},
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Time
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'time',
+            typeOptions:{
+                isRequired: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
 
 
 
