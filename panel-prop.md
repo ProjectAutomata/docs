@@ -227,8 +227,6 @@
 }
 ```
 
-
-
 ### Single Select
 
 ```
@@ -245,10 +243,6 @@
     }
 }
 ```
-
-
-
-
 
 ### Subscriber
 
@@ -267,8 +261,6 @@
 }
 ```
 
-
-
 ### Date
 
 ```
@@ -284,8 +276,6 @@
     }
 }
 ```
-
-
 
 ### Phone Number
 
@@ -303,6 +293,51 @@
     }
 }
 ```
+
+
+
+### Currency
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'currency',
+            typeOptions:{
+                isRequired: 'Boolean',
+                precision: 'DECIMAL' 1.0 -> 1.0^10
+                default: '',
+                symbol: '$'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Percent
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'percent',
+            typeOptions:{
+                isRequired: 'Boolean',
+                precision: 'DECIMAL' 1.0 -> 1.0^10
+                default: ''
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Created Date
 
 
 
