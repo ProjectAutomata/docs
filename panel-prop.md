@@ -470,7 +470,7 @@
                 regex: 'REGEXP String',
                 numberType: 'decimal|integer' //Default: Integer,
                 allowNegative: false,
-                precision: 'Number', 1-10 1 means 1.0, 2 means 1.00  
+                precision: 'Number', 1-10 1 means 1.0, 2 means 1.00  //if numberType === 'decimail'
         },
         panelId: 'PanelID REFERENCE'
     }
