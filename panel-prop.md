@@ -345,8 +345,6 @@
 }
 ```
 
-
-
 ### Updated Date
 
 ```
@@ -360,8 +358,6 @@
     }
 }
 ```
-
-
 
 ### Time
 
@@ -377,6 +373,65 @@
         panelId: 'PanelID REFERENCE'
     }
 }
+```
+
+
+
+### Email
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'email',
+            typeOptions:{
+                isRequired: 'Boolean',
+                isPrimary: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Url
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'url',
+            typeOptions:{
+                isRequired: 'Boolean',
+                isPrimary: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
+
+
+
+### Rating
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'rating',
+            typeOptions:{
+                isRequired: 'Boolean',
+                default: '',
+                max: '' 1-10 number
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+
 ```
 
 
