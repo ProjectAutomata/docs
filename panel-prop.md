@@ -70,6 +70,7 @@
 | Date |
 | :--- |
 | Is Required |
+| indian\|friendly\|US standard\| European |
 
 | Time |
 | :--- |
@@ -282,7 +283,8 @@
             name: 'String'
             type: 'date',
             typeOptions:{
-                isRequired: 'Boolean'
+                isRequired: 'Boolean',
+                formatType: 'MM-DD-YYYY' //Check moment.js docs
         },
         panelId: 'PanelID REFERENCE'
     }
@@ -316,8 +318,9 @@
             type: 'currency',
             typeOptions:{
                 isRequired: 'Boolean',
-                precision: 'DECIMAL' 1.0 -> 1.0^10
+                precision: 'Number' 1-10 1.0 -> 1.0^10
                 default: '',
+                allowNegative: 'Boolean',
                 symbol: '$'
         },
         panelId: 'PanelID REFERENCE'
@@ -335,7 +338,8 @@
             type: 'percent',
             typeOptions:{
                 isRequired: 'Boolean',
-                precision: 'DECIMAL' 1.0 -> 1.0^10
+                precision: 'DECIMAL' 1.0 -> 1.0^10,
+                allowNegative: 'Boolean'
                 default: ''
         },
         panelId: 'PanelID REFERENCE'
