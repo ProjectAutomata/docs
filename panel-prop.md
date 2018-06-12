@@ -125,7 +125,7 @@
 | Suffix |
 | Prefix |
 
-| Link to Another Record |
+| Link to Another Panel |
 | :--- |
 | Single \| Multiple |
 | Select Panel |
