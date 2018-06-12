@@ -2,7 +2,7 @@
 
 | Type | Features |
 | :--- | :--- |
-| Link to another panel | Single\|Multiple, Select Panel, Choose Fields |
+| Link to another panel | Single/Multiple, Select Panel, Choose Fields |
 | Single Line Text |  |
 | Long Text |  |
 | Attachment |  |
