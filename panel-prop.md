@@ -355,7 +355,10 @@
     payload: {
         name: 'String'
         type: 'createdDate',
-        typeOptions:{},
+        typeOptions:{
+            showTime: 'Boolean',
+            timeFormat: '12hour|24hour' //if showTime === true
+        },
         panelId: 'PanelID REFERENCE'
     }
 }
@@ -369,7 +372,10 @@
     payload: {
         name: 'String'
         type: 'updatedDate',
-        typeOptions:{},
+        typeOptions:{
+            showTime: 'Boolean',
+            timeFormat: '12hour|24hour' //if showTime === true
+        },
         panelId: 'PanelID REFERENCE'
     }
 }
@@ -384,7 +390,8 @@
             name: 'String'
             type: 'time',
             typeOptions:{
-                isRequired: 'Boolean'
+                isRequired: 'Boolean',
+                timeFormat: '12hour|24hour'
         },
         panelId: 'PanelID REFERENCE'
     }
