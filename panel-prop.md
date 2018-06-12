@@ -133,10 +133,6 @@
 | Select Display Fields |
 | Is Required |
 
-
-
-
-
 ### Single Line Text
 
 ```
@@ -158,8 +154,6 @@
     }
 }
 ```
-
-
 
 ### Long Text
 
@@ -184,8 +178,6 @@
 }
 ```
 
-
-
 ### Attachment
 
 ```
@@ -195,11 +187,7 @@
             name: 'String'
             type: 'attachment',
             typeOptions:{
-                isRequired: 'Boolean',
-                suffix:'String',
-                prefix: 'String',
-                regex: 'String' //Must be a valid RegExp
-                isPrimary: 'Boolean'
+                isRequired: 'Boolean'
         },
         panelId: 'PanelID REFERENCE'
     }
@@ -208,11 +196,41 @@
 
 
 
+### Checkbox
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'checkbox',
+            typeOptions:{
+                isRequired: 'Boolean',
+                default: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
 
 
 
+### Multiple Select
 
-
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'multipleSelect',
+            typeOptions:{
+                isRequired: 'Boolean',
+                default: 'Boolean'
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+}
+```
 
 
 
