@@ -48,4 +48,5 @@
 * [Add Row Settings](multiple-grid-structure.md)
 * [React Components](react-components.md)
   * [Project Card](react-components/project-card.md)
+* [Panel Prop](panel-prop.md)
 
