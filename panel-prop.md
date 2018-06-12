@@ -256,7 +256,7 @@
 }
 ```
 
-### Subscriber
+### Subscriber //Always will be a multiple select
 
 ```
 {
@@ -433,6 +433,33 @@
                 isRequired: 'Boolean',
                 default: '',
                 max: '' 1-10 number
+        },
+        panelId: 'PanelID REFERENCE'
+    }
+```
+
+### Number
+
+```
+{
+    _id: 'projectId:panelShortId:shortId',
+    payload: {
+            name: 'String'
+            type: 'number',
+            typeOptions:{
+                isRequired: 'Boolean',
+                default: '',
+                min: 'Number',
+                max: 'Number',
+                gte: 'Number',
+                lte: 'Number',
+                suffix: 'Any',
+                prefix: 'Any',
+                isPrimary: 'Boolean',
+                regex: 'REGEXP String',
+                numberType: 'Decimal|Integer' //Default: Integer,
+                allowNegative: false,
+                precision: 'Number', 1-10 1 means 1.0, 2 means 1.00  
         },
         panelId: 'PanelID REFERENCE'
     }
