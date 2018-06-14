@@ -70,7 +70,7 @@
 | Date |
 | :--- |
 | Is Required |
-| indian\|friendly\|US standard\| European |
+| Indian, friendly, US standard, European |
 
 | Time |
 | :--- |
@@ -93,11 +93,11 @@
 
 | Created Date |
 | :--- |
-
+| Indian, friendly, US standard, European |
 
 | Updated Date |
 | :--- |
-
+| Indian, friendly, US standard, European |
 
 | Email |
 | :--- |
