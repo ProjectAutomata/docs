@@ -2,7 +2,7 @@
 
 | Type | Features |
 | :--- | :--- |
-| Link to another panel | Single\|Multiple, Select Panel, Choose Fields |
+| Link to another panel | Single, Multiple, Select Panel, Choose Fields |
 | Single Line Text |  |
 | Long Text |  |
 | Attachment |  |
@@ -10,8 +10,8 @@
 | Multiple Select | With Color Select and Option to add Options |
 | Single Select | With Color Select and Options to add Options |
 | Subscriber | Event Select |
-| Date | Indian\|Friendly\|US Standard\|European\|ISO |
-| Time | 12 Hour \| 24 Hour |
+| Date | Indian, Friendly, US Standard, European, ISO |
+| Time | 12 Hour,  24 Hour |
 | Duration | hh:mm:ss Check Airtable, Zoho Sprint |
 | Phone number | Just formatted design like AirBnb |
 | Email |  |
