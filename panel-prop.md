@@ -128,7 +128,7 @@
 
 | Link to Another Panel |
 | :--- |
-| Single \| Multiple |
+| Single, Multiple |
 | Select Panel |
 | Select Search Field |
 | Select Display Fields |
