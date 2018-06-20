@@ -36,14 +36,13 @@
                panelPropId: 324242
              },
              {
-		queryType: or|and,
-		dataType: Related
-		relatedDataType: String|Date|other except Related add in validation. ,
-		type: “contains| is_within depends upon the value of realtedDataType”,
-		panelPropId: “”
-		relatedPanelId: “Mongo id of related panel”,
-		relatedPanelPropId: “MongoID of related panel’s property”,
-		//Rest properties will be as it is a/c to provided type
+                queryType: or|and,
+                dataType: Related
+                relatedDataType: String|Date|other except Related add in validation. ,
+                type: “contains| is_within depends upon the value of realtedDataType”,
+                panelPropId: “”
+                relatedPanelId: “Mongo id of related panel”,
+                relatedPanelPropId: “MongoID of related panel’s property”
               },
              ....
              ....
