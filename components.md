@@ -46,7 +46,40 @@
               },
              ....
              ....
-        ]
+        ],
+        header:[
+          {
+            panelPropId: String,
+            isCompactView: false|true default: false
+          }
+        ],
+        dataEntrySections:{
+          large:[
+             {
+               title: String, //Optional
+               description: String, //Optional
+               position: Number,
+               columns:[
+                 {
+                   width: Number //Max 16, Min: 1
+                   rows:[
+                     {
+                       columns:[
+                         {
+                           width: Number,//Max 16, Min: 1
+                           panelPropId: String,
+                           inputType: String
+                         }
+                       ]
+                     }
+                   ]
+                 }
+               ]
+             }
+          ],
+          medium:[ //Same as large type],
+          small: [//Same as medium type ]
+        }
     } 
 }
 ```
