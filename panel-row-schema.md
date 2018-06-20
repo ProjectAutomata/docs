@@ -1,7 +1,5 @@
 ### Panel Row Schema
 
-
-
 ```
 {
     _id: Panel:ShortId,
