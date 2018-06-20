@@ -51,4 +51,5 @@
 * [Panel Prop](panel-prop.md)
 * [PageSection](pagesection.md)
 * [Components](components.md)
+* [Panel Row Schema](panel-row-schema.md)
 
