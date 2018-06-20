@@ -49,4 +49,6 @@
 * [React Components](react-components.md)
   * [Project Card](react-components/project-card.md)
 * [Panel Prop](panel-prop.md)
+* [PageSection](pagesection.md)
+* [Components](components.md)
 
