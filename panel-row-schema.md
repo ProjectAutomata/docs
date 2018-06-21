@@ -37,10 +37,6 @@
 }
 ```
 
-
-
-
-
 #### Examples
 
 ```
@@ -66,7 +62,7 @@
             ]
         }
     ]
-                    
+
 }
 {
     _id: 2,
@@ -121,6 +117,22 @@
     ]               
 }
 ```
+
+
+
+
+
+## Mongo Index
+
+```
+
+db.Test.createIndex({'cells.value':1, 'cells.relatedData.value':1})
+db.Test.createIndex({'cells.relatedData.value':1})
+db.Test.createIndex({'cells.value':1})
+
+```
+
+
 
 
 
