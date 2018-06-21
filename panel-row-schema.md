@@ -146,30 +146,7 @@
 }
 ```
 
-### Panel Row Data Conversion and Storage
-
-| Properties | Features | Storage Mechanism |
-| :--- | :--- | :--- |
-| Link to another panel | Single, Multiple, Select Panel, Choose Fields |  |
-| Single Line Text |  |  |
-| Long Text |  |  |
-| Attachment |  |  |
-| Checkbox |  |  |
-| Multiple Select | With Color Select and Option to add Options |  |
-| Single Select | With Color Select and Options to add Options |  |
-| Subscriber | Event Select //DISCUSS STORAGE MEDIUM. |  |
-| Date | Indian, Friendly, US Standard, European, ISO, Store in backend in format of ISO date |  |
-| Time | 12 Hour,  24 Hour, store in form of seconds of 12 hour o 24 hour format. |  |
-| Duration | hh:mm:ss Check Airtable, Zoho Sprint. At backend its value will get stored in form of number in seconds. |  |
-| Phone number | Just formatted design like AirBnb |  |
-| Email |  |  |
-| Url |  |  |
-| Number | Select Integer or Decimal\(1.0\) + Precision |  |
-| Currency | Currency Symbol + Precision + Allow -ve number |  |
-| Percent | Precision + Allow -ve number |  |
-| Rating | Max number \(Select out of 10\) |  |
-| Created Date | \(Ask for Options Also Display Time\) |  |
-| Updated Date | \(Ask for option to also display time\) |  |
+###                                           Panel Row Data Conversion and Storage
 
 #### Link to another panel \[Single\|Multiple\]
 
@@ -392,7 +369,109 @@
 }
 ```
 
-## 
+## Url
+
+```
+{
+   _id: 3,
+   payload:{
+      cells:[
+         {
+             panelPropId: 'url',
+             value: 'http://www.google.com'
+         }
+      ]
+   }
+}
+```
+
+#### Number
+
+```
+{
+    _id: 3,
+    payload:{
+        cells:[
+            {
+                panelPropId: 'number',
+                value: 23
+            }
+        ]
+    }
+}
+```
+
+#### Currency
+
+```
+{
+    _id: 3,
+    payload:{
+        cells:[
+            {
+                panelPropId: 'currency',
+                value: 1234
+            }
+        ]
+    }
+}
+```
+
+#### Percent
+
+```
+{
+    _id: 3,
+    payload:{
+        cells:[
+            {
+                panelPropId: 'percent',
+                value: 60
+            }
+        ]
+    }
+}
+```
+
+
+
+#### Rating
+
+```
+{
+    _id: 3,
+    payload:{
+        cells:[
+            {
+                panelPropId: 'rating',
+                value: 50
+            }
+        ]
+    }
+}
+```
+
+#### Created Date \| Updated Date
+
+```
+{
+    _id: 3,
+    payload: {
+        cells:[
+            {
+                panelPropId: 'createdDate|updatedDate',
+                value: 'ISO DATE'
+            }
+        ]
+    }
+}
+```
+
+
+
+
+
+
 
 ## Sample Query
 
