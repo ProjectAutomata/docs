@@ -255,15 +255,8 @@
    payload:{
      cells:[
        {
-           panelPropId: 'documents',
-           value:[
-               {
-                  snaphyImageId: '',
-                  container:'',
-                  name: '',
-                  mime: ''
-               }
-           ]
+           panelPropId: 'isChecked',
+           value: true|false
         }
       ]
    } 
