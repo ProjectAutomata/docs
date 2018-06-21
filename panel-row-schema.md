@@ -155,6 +155,7 @@ db.Test.find({
 db.Test.createIndex({'cells.value':1, 'cells.relatedData.value':1})
 db.Test.createIndex({'cells.relatedData.value':1})
 db.Test.createIndex({'cells.panelPropId':1, 'cells.value':1})
+db.Test.createIndex({'cells.panelPropId':1, 'cells.value':1})
 ```
 
 
