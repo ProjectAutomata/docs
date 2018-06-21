@@ -118,21 +118,44 @@
 }
 ```
 
+## Sample Query
 
+```
+db.Test.find({ 
+    $and:[
+        {
+            'cells.panelPropId':'age', 
+            'cells.value': {
+                $lt: 21
+            }
+        },
+        {
+            $or:[
+                {
+                    'cells.panelPropId':'name', 
+                    'cells.value': 'Robins'
+                },
+                {
+                    'cells.panelPropId':'age', 
+                    'cells.value': {
+                        $gt: 18
+                    }
+                }
+            ]
+        }
+    ]   
+})
+```
 
-
+## 
 
 ## Mongo Index
 
 ```
-
 db.Test.createIndex({'cells.value':1, 'cells.relatedData.value':1})
 db.Test.createIndex({'cells.relatedData.value':1})
 db.Test.createIndex({'cells.value':1})
-
 ```
-
-
 
 
 
