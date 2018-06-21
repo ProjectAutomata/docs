@@ -1,3 +1,6 @@
+
+---
+
 ### Problems
 
 ![](/assets/Automata Panel Row Design_1.jpg)![](/assets/Automata Panel Row Design_2.jpg)
@@ -24,20 +27,19 @@
                 }
             ]
         },
-        {
-            //related data case...
-            panelPropId: String,
-            value: Any,
-            foreignRowId: String
-        }
     ],
     cellsObj:{
         panelPropId: {
             value: Any
         },
         panelPropId:{
-            value: Any,
-            foreignRowId: String
+            relatedData:[
+                {
+                    foreignRowId: "Related Panel Row Id",
+                    value: '9953242338'
+                }
+            ]
+
         }
         ...
         ...
@@ -146,28 +148,41 @@
 
 ### Panel Row Data Conversion and Storage
 
-| Properties | Features |
-| :--- | :--- |
-| Link to another panel | Single, Multiple, Select Panel, Choose Fields |
-| Single Line Text |  |
-| Long Text |  |
-| Attachment |  |
-| Checkbox |  |
-| Multiple Select | With Color Select and Option to add Options |
-| Single Select | With Color Select and Options to add Options |
-| Subscriber | Event Select //DISCUSS STORAGE MEDIUM. |
-| Date | Indian, Friendly, US Standard, European, ISO, Store in backend in format of ISO date |
-| Time | 12 Hour,  24 Hour, store in form of seconds of 12 hour o 24 hour format. |
-| Duration | hh:mm:ss Check Airtable, Zoho Sprint. At backend its value will get stored in form of number in seconds. |
-| Phone number | Just formatted design like AirBnb |
-| Email |  |
-| Url |  |
-| Number | Select Integer or Decimal\(1.0\) + Precision |
-| Currency | Currency Symbol + Precision + Allow -ve number |
-| Percent | Precision + Allow -ve number |
-| Rating | Max number \(Select out of 10\) |
-| Created Date | \(Ask for Options Also Display Time\) |
-| Updated Date | \(Ask for option to also display time\) |
+| Properties | Features | Storage Mechanism |
+| :--- | :--- | :--- |
+| Link to another panel | Single, Multiple, Select Panel, Choose Fields |  |
+| Single Line Text |  |  |
+| Long Text |  |  |
+| Attachment |  |  |
+| Checkbox |  |  |
+| Multiple Select | With Color Select and Option to add Options |  |
+| Single Select | With Color Select and Options to add Options |  |
+| Subscriber | Event Select //DISCUSS STORAGE MEDIUM. |  |
+| Date | Indian, Friendly, US Standard, European, ISO, Store in backend in format of ISO date |  |
+| Time | 12 Hour,  24 Hour, store in form of seconds of 12 hour o 24 hour format. |  |
+| Duration | hh:mm:ss Check Airtable, Zoho Sprint. At backend its value will get stored in form of number in seconds. |  |
+| Phone number | Just formatted design like AirBnb |  |
+| Email |  |  |
+| Url |  |  |
+| Number | Select Integer or Decimal\(1.0\) + Precision |  |
+| Currency | Currency Symbol + Precision + Allow -ve number |  |
+| Percent | Precision + Allow -ve number |  |
+| Rating | Max number \(Select out of 10\) |  |
+| Created Date | \(Ask for Options Also Display Time\) |  |
+| Updated Date | \(Ask for option to also display time\) |  |
+
+#### Link to another panel
+
+```
+{
+    
+
+}
+```
+
+## 
+
+## 
 
 ## 
 
