@@ -171,12 +171,26 @@
 | Created Date | \(Ask for Options Also Display Time\) |  |
 | Updated Date | \(Ask for option to also display time\) |  |
 
-#### Link to another panel
+#### Link to another panel \[Single\|Multiple\]
 
 ```
 {
-    
-
+    _id: 3,
+    cells:[
+        {
+            panelPropId: 'contactNumber',
+            relatedData:[
+                {
+                    foreignRowId: 3,
+                    value: '9873046993'
+                },
+                {
+                    foreignRowId: 3,
+                    value: '9953242338'
+                }
+            ]
+        }
+    ]               
 }
 ```
 
