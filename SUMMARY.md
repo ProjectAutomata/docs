@@ -53,4 +53,5 @@
 * [Components](components.md)
 * [Panel Row Schema](panel-row-schema.md)
 * [Panel Rules](panel-rules.md)
+* Panel Analytics
 
