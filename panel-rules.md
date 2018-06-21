@@ -1,8 +1,74 @@
 ### Panel Rules Design Docs
 
-### 
+#### Panel Filter
 
-### 
+```
+{
+    _id: 1,
+    payload:{
+        name: 'panel filter name',
+        panelId: 'panel filter id',
+        where:[
+            {
+                queryType: and|or,
+                dataType: string|number|date|boolean|related|enum,
+                type: contains etc..
+                value: 'data',
+                panelPropId: 3
+            }
+        ]
+    }
+}
+```
+
+
+
+```
+if dataType === String:
+    contains
+    does_not_contains
+    is
+    is_not
+    is_empty
+    is_not_empty
+
+if dataType === Number
+    contains
+    does_not_contains
+    is
+    is_not
+    is_empty
+    is_not_empty
+    gt
+    lt
+    gte
+    lte
+
+if dataType === Date
+    is
+    is_within
+    is_before
+    is_after
+    is_on_or_before
+    is_not
+    is_empty
+    is_not_empty
+
+if dataType === Boolean
+    is
+    
+if dataType === Related
+    Depends on the type of panel props
+if dataType === enum
+    1. Display dropdown
+    2. is
+    3. is_not
+    4. is_empty
+    5. is_not_empty
+
+```
+
+
 
 ### **PANEL FILTER FUTURE ROADMAP**
 
