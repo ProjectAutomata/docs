@@ -247,9 +247,32 @@
 }
 ```
 
+## Checkbox
 
+```
+{
+    _id: 3,
+   payload:{
+     cells:[
+       {
+           panelPropId: 'documents',
+           value:[
+               {
+                  snaphyImageId: '',
+                  container:'',
+                  name: '',
+                  mime: ''
+               }
+           ]
+        }
+      ]
+   } 
+}
+```
 
+## 
 
+## 
 
 ## Sample Query
 
