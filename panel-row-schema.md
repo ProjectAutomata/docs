@@ -194,11 +194,62 @@
 }
 ```
 
-## 
+#### Single Line Text
 
-## 
+```
+{
+    _id: 3,
+    payload:{
+    cells:[
+        {
+            panelPropId: 'name',
+            value:"Robins Kumar Gupta"
+        }
+    ]               
+}
+```
 
-## 
+#### Long Text
+
+```
+{
+    _id: 3,
+    payload:{
+    cells:[
+        {
+            panelPropId: 'name',
+            value:"This is a long Text example."
+        }
+    ]               
+}
+```
+
+#### Attachment
+
+```
+{
+  _id: 3,
+  payload:{
+    cells:[
+       {
+           panelPropId: 'documents',
+           value:[
+               {
+                  snaphyImageId: '',
+                  container:'',
+                  name: '',
+                  mime: ''
+               }
+           ]
+        }
+      ]
+   } 
+}
+```
+
+
+
+
 
 ## Sample Query
 
