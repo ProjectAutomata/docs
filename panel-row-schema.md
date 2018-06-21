@@ -61,7 +61,24 @@
                 }
             ]
         }
-    ]
+    ],
+    cellsObj:{
+        name: {
+            value: 'Robins'
+        },
+        age: {
+            value: 18
+        },
+        contactNumber: {
+            relatedData:[
+                {
+                    foreignRowId: 2,
+                    value: '9953242338'
+                }
+            ]
+        },
+
+    }
 
 }
 {
