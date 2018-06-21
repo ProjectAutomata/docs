@@ -183,3 +183,13 @@ db.Test.createIndex({ 'cells.panelPropId':1, 'cells.relatedData.foreignRowId':1 
 
 
 
+### How related document will get update?
+
+
+
+### 
+
+
+
+
+
