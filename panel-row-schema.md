@@ -39,3 +39,88 @@
 
 
 
+
+
+#### Examples
+
+```
+///Row 1
+{
+    _id: 1,
+    cells:[
+        {
+            panelPropId: 'name',
+            value: 'Robins'
+        },
+        {
+            panelPropId: 'age',
+            value: 18
+        },
+        {
+            panelPropId: 'contactNumber',
+            relatedData:[
+                {
+                    foreignRowId: 2,
+                    value: '9953242338'
+                }
+            ]
+        }
+    ]
+                    
+}
+{
+    _id: 2,
+    cells:[
+        {
+            panelPropId: 'name',
+            value: 'Ravi'
+        },
+        {
+            panelPropId: 'age',
+            value: 20
+        },
+        {
+            panelPropId: 'contactNumber',
+            relatedData:[
+                {
+                    foreignRowId: 3,
+                    value: '9873046993'
+                },
+                {
+                    foreignRowId: 3,
+                    value: '9953242338'
+                }
+            ]
+        }
+    ]               
+}
+{
+    _id: 3,
+    cells:[
+        {
+            panelPropId: 'name',
+            value: 'Rishi'
+        },
+        {
+            panelPropId: 'age',
+            value: 23
+        },
+        {
+            panelPropId: 'contactNumber',
+            relatedData:[
+                {
+                    foreignRowId: 3,
+                    value: '9873046993'
+                },
+                {
+                    foreignRowId: 3,
+                    value: '9953242338'
+                }
+            ]
+        }
+    ]               
+}
+```
+
+
+
