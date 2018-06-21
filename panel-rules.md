@@ -9,7 +9,7 @@
 1. ### **Advance filter option like**
 2. 1. **We can apply filter like**
 
-   2. 1. **Show only those data whosequantity x rate is greater than 100**
+   2. 1. **Show only those data whose quantity x rate is greater than 100**
 
       2. **Show only those dataamount - discount &gt; 100**
 

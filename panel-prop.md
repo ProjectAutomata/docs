@@ -9,10 +9,10 @@
 | Checkbox |  |
 | Multiple Select | With Color Select and Option to add Options |
 | Single Select | With Color Select and Options to add Options |
-| Subscriber | Event Select |
-| Date | Indian, Friendly, US Standard, European, ISO |
-| Time | 12 Hour,  24 Hour |
-| Duration | hh:mm:ss Check Airtable, Zoho Sprint |
+| Subscriber | Event Select //DISCUSS STORAGE MEDIUM. |
+| Date | Indian, Friendly, US Standard, European, ISO, Store in backend in format of ISO date |
+| Time | 12 Hour,  24 Hour, store in form of seconds of 12 hour o 24 hour format. |
+| Duration | hh:mm:ss Check Airtable, Zoho Sprint. At backend its value will get stored in form of number in seconds. |
 | Phone number | Just formatted design like AirBnb |
 | Email |  |
 | Url |  |
