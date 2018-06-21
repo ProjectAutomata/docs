@@ -376,7 +376,21 @@
 }
 ```
 
-## 
+## Email
+
+```
+{
+   _id: 3,
+   payload:{
+      cells:[
+         {
+             panelPropId: 'email',
+             value: 'robins@snaphy.com'
+         }
+      ]
+   }
+}
+```
 
 ## 
 
