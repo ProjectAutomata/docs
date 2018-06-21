@@ -130,6 +130,10 @@ db.Test.find({
             }
         },
         {
+            'cells.panelPropId':'contactNumber', 
+            'cells.relatedData.value': '9873046993' 
+        },
+        {
             $or:[
                 {
                     'cells.panelPropId':'name', 
