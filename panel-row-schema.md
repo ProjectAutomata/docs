@@ -263,9 +263,108 @@
 }
 ```
 
-## 
+#### Multiple Select 
 
-## 
+```
+{
+    _id: 3,
+   payload:{
+     cells:[
+       {
+           panelPropId: 'fruits',
+           value: ['apple', 'banana']
+        }
+      ]
+   } 
+}
+```
+
+#### Single Select
+
+```
+{
+    _id: 3,
+   payload:{
+     cells:[
+       {
+           panelPropId: 'status',
+           value: 'active'
+        }
+      ]
+   } 
+}
+```
+
+#### Subscriber
+
+```
+{
+    _id: 3,
+   payload:{
+     cells:[
+       {
+           panelPropId: 'subscriber',
+           value: 'active'
+        }
+      ]
+   } 
+}
+```
+
+#### Date
+
+```
+{
+   _id: 3,
+   payload:{
+     cells:[
+       {
+           panelPropId: 'date',
+           value: 'Thu Jun 21 2018 17:58:37 GMT+0530'
+        }
+      ]
+   } 
+}
+```
+
+#### Time
+
+```
+{
+   _id: 3,
+   payload:{
+     cells:[
+       {
+           panelPropId: 'date',
+           value: '1230123' //In seconds
+        }
+      ]
+   } 
+}
+```
+
+#### Duration
+
+```
+{
+   _id: 3,
+   payload:{
+     cells:[
+       {
+           panelPropId: 'duration',
+           value: '120' //In seconds
+        }
+      ]
+   } 
+   
+}
+```
+
+
+
+
+
+
 
 ## Sample Query
 
