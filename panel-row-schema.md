@@ -263,7 +263,7 @@
 }
 ```
 
-#### Multiple Select 
+#### Multiple Select
 
 ```
 {
@@ -356,15 +356,29 @@
         }
       ]
    } 
-   
+
 }
 ```
 
+## Phone Number
 
+```
+{
+    _id: 3,
+    payload:{
+         cells:[
+              {
+                   panelPropId: 'phoneNumber',
+                   value: '9953242338'
+              }
+         ]   
+    }
+}
+```
 
+## 
 
-
-
+## 
 
 ## Sample Query
 
