@@ -28,7 +28,7 @@
             ]
         },
     ],
-    cellsObj:{
+    cellObj:{
         panelPropId: {
             value: Any
         },
@@ -146,7 +146,7 @@
 }
 ```
 
-###                                           Panel Row Data Conversion and Storage
+### Panel Row Data Conversion and Storage
 
 #### Link to another panel \[Single\|Multiple\]
 
@@ -433,8 +433,6 @@
 }
 ```
 
-
-
 #### Rating
 
 ```
@@ -466,12 +464,6 @@
     }
 }
 ```
-
-
-
-
-
-
 
 ## Sample Query
 
