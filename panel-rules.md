@@ -21,8 +21,6 @@
 }
 ```
 
-
-
 ```
 if dataType === String:
     contains
@@ -56,7 +54,7 @@ if dataType === Date
 
 if dataType === Boolean
     is
-    
+
 if dataType === Related
     Depends on the type of panel props
 if dataType === enum
@@ -65,10 +63,7 @@ if dataType === enum
     3. is_not
     4. is_empty
     5. is_not_empty
-
 ```
-
-
 
 ### **PANEL FILTER FUTURE ROADMAP**
 
