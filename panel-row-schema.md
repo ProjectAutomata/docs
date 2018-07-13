@@ -72,14 +72,11 @@
 ```
 
 ```
-
-
-
-
 ///Row 1
 {
     _id: 1,
     componentId: 32322,
+    modelId: 123sds,
     cells:[
         {
             panelPropId: '3421',
@@ -170,9 +167,6 @@
         }
     ]               
 }
-
-
-
 ```
 
 ### Panel Row Data Conversion and Storage
