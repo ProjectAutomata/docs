@@ -51,16 +51,42 @@
 #### Examples
 
 ```
+// models/customer.json
+
+{
+    name: "Customer",
+    id: '123sds',
+    properties:{
+        'name':{
+            id: '3421',
+            type: 'string',
+            required: true
+         },
+         'age':{
+             id: '5454',
+             type: 'number',
+             required: true
+         }
+    }
+}
+```
+
+```
+
+
+
+
 ///Row 1
 {
     _id: 1,
+    componentId: 32322,
     cells:[
         {
-            panelPropId: 'name',
+            panelPropId: '3421',
             value: 'Robins'
         },
         {
-            panelPropId: 'age',
+            panelPropId: '5454',
             value: 18
         },
         {
@@ -73,11 +99,11 @@
             ]
         }
     ],
-    cells\Obj:{
-        name: {
+    cellsObj:{
+        3421: {
             value: 'Robins'
         },
-        age: {
+        5454: {
             value: 18
         },
         contactNumber: {
@@ -144,6 +170,9 @@
         }
     ]               
 }
+
+
+
 ```
 
 ### Panel Row Data Conversion and Storage
