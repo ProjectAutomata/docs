@@ -55,6 +55,7 @@
 
 {
     name: "Customer",
+    public: true,
     id: '123sds',
     properties:{
         'name':{
@@ -75,7 +76,7 @@
 ///Row 1
 {
     _id: 1,
-    componentId: 32322,
+    componentViewId: 32322,
     modelId: 123sds,
     cells:[
         {

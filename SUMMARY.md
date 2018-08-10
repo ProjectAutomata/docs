@@ -54,4 +54,5 @@
 * [Panel Row Schema](panel-row-schema.md)
 * [Panel Rules](panel-rules.md)
 * [Panel Analytics](panel-analytics.md)
+* [Adding Position to List](adding-position-to-list.md)
 
