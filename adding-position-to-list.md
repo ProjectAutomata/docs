@@ -11,9 +11,9 @@ We will assign a position 65535 to first number and will get on adding 65536 to 
 
 ### Assigning a new position when dropping a list item between two list
 
-Suppose a **Item 5** is being dropped in between **Item 2 **and** Item 3  
-  
-**
+Suppose a **Item 5** is being dropped in between **Item 2 **and **Item 3**
+
+
 
 | List | Position |
 | :--- | :--- |
